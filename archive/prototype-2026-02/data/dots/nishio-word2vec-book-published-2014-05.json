@@ -1,0 +1,21 @@
+{
+  "id": "nishio-word2vec-book-published-2014-05",
+  "when": "2014-05",
+  "title": "『word2vecによる自然言語処理』を出版",
+  "summary": "O'Reilly Japanからword2vec本を出版。",
+  "tags": ["profile", "book", "nishio-involved"],
+  "sources": [
+    {
+      "url": "http://nhiro.org/ja.html",
+      "label": "nhiro.org: 日本語プロフィール（経歴）"
+    },
+    {
+      "url": "https://www.oreilly.co.jp/books/9784873116839/",
+      "label": "O'Reilly Japan 書籍ページ"
+    },
+    {
+      "url": "https://nishio.github.io/entrypoint/ja.html",
+      "label": "entrypoint: 読んでほしいもの"
+    }
+  ]
+}

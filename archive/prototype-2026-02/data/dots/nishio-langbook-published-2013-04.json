@@ -1,0 +1,21 @@
+{
+  "id": "nishio-langbook-published-2013-04",
+  "when": "2013-04",
+  "title": "『コーディングを支える技術』を出版",
+  "summary": "2013年4月に『コーディングを支える技術』を出版。",
+  "tags": ["profile", "book", "nishio-involved"],
+  "sources": [
+    {
+      "url": "http://nhiro.org/ja.html",
+      "label": "nhiro.org: 日本語プロフィール（経歴）"
+    },
+    {
+      "url": "https://nhiro.org/langbook/",
+      "label": "コーディングを支える技術（著者公式ページ）"
+    },
+    {
+      "url": "https://nishio.github.io/entrypoint/ja.html",
+      "label": "entrypoint: 読んでほしいもの"
+    }
+  ]
+}

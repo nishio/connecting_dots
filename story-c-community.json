@@ -1,0 +1,66 @@
+{
+  "$comment": "Pilot Story object for Story C (日本のPluralityコミュニティ形成史). References dot ids from dots.json. Includes 2 dots shared with Story A — they receive different captions in this Story.",
+  "schema_version": "0.1-pilot",
+  "id": "story-c-community-formation",
+  "title": "日本の Plurality コミュニティ形成史",
+  "language": "ja",
+  "audience": ["community-organizer", "movement-participant", "civic-tech"],
+  "purpose": "コミュニティ形成のパターンと拡散の経路を共有 / 仲間であると認識される",
+  "author": "nishio",
+  "intro": "日本における Plurality コミュニティは、UC Berkeley のカンファレンス、Plurality Tokyo、なめら会議シリーズ、Funding the Commons Tokyo、Tokyo Plurality Week 2025 と継続的なイベント連鎖で形成されてきた。サイボウズ、SmartNews、Code for Japan、ゲンロンといった既存組織の文脈との接続も同時並行で進んだ。",
+  "dots": [
+    "2023-01-13-ucb-plurality-conference",
+    "2023-04-04-suzuki-azuma-genron",
+    "2023-04-14-plurality-tokyo",
+    "2023-05-13-audrey-manazuru",
+    "2023-07-08-plurality-tokyo-salon-kiryusha",
+    "2023-07-12-nameteki-kai",
+    "2023-10-29-namerakaigi-2",
+    "2023-12-12-plurality-cybozu-meeting",
+    "2024-01-03-glen-in-japan",
+    "2024-01-13-namerakaigi-3",
+    "2024-01-20-trinity-merge-season-2",
+    "2024-04-26-plurality-benkyokai-cybozu",
+    "2024-07-22-cybozu-talk-plurality",
+    "2024-07-24-funding-the-commons-tokyo",
+    "2025-02-25-plurality-tokyo-namerakaigi",
+    "2025-05-06-tokyo-plurality-week",
+    "2025-11-29-cfj-summit-2025"
+  ],
+  "captions": {
+    "2023-01-13-ucb-plurality-conference": "国際コミュニティとの接続点。tkgshn が日本側参加者として接続を持ち帰る",
+    "2023-04-14-plurality-tokyo": "日本のPlurality コミュニティの最初のフラッグシップイベント。複数組織(RxC, Code for Japan)横断の運営体制が成立",
+    "2023-05-13-audrey-manazuru": "Audrey Tang の真鶴視察を契機にサイボウズ(青野慶久)との接続が生まれた、コミュニティ拡張の重要な分岐点",
+    "2023-07-12-nameteki-kai": "鈴木健『なめらかな社会とその敵』ファン層との合流。「なめ敵×Plurality」軸が生まれる",
+    "2023-10-29-namerakaigi-2": "鈴木健の「家族的類似性を感じる」発言で、両思想の比較が公式化",
+    "2024-01-03-glen-in-japan": "Glen Weyl 来日による国際コミュニティとの第二の接続",
+    "2024-01-20-trinity-merge-season-2": "翻訳プロジェクト由来のイベントだが、コミュニティとして読書会の運営パターンが定着した節目でもある",
+    "2024-07-24-funding-the-commons-tokyo": "国際的なクリプト/公共財コミュニティとの接続。小池百合子(都知事)の登壇で行政文脈にも接続",
+    "2025-02-25-plurality-tokyo-namerakaigi": "Plurality Tokyo と なめら会議系列が統合される試み",
+    "2025-05-06-tokyo-plurality-week": "1週間で9イベント以上の集中開催。コミュニティが scale するフェーズに入った",
+    "2025-11-29-cfj-summit-2025": "Code for Japan という既存シビックテックコミュニティへの統合的な接続"
+  },
+  "sections": [
+    {
+      "title": "起点と種まき (2023 前半)",
+      "from": "2023-01-13-ucb-plurality-conference",
+      "to": "2023-05-13-audrey-manazuru"
+    },
+    {
+      "title": "Salon と なめ敵接続 (2023 後半)",
+      "from": "2023-07-08-plurality-tokyo-salon-kiryusha",
+      "to": "2023-12-12-plurality-cybozu-meeting"
+    },
+    {
+      "title": "拡大とイベント連鎖 (2024)",
+      "from": "2024-01-03-glen-in-japan",
+      "to": "2024-07-24-funding-the-commons-tokyo"
+    },
+    {
+      "title": "scale と既存コミュニティへの接続 (2025)",
+      "from": "2025-02-25-plurality-tokyo-namerakaigi",
+      "to": "2025-11-29-cfj-summit-2025"
+    }
+  ],
+  "shared_with": ["story-a-translation-history"]
+}

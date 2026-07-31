@@ -1,0 +1,31 @@
+{
+  "id": "plurality-history-ja",
+  "lang": "ja",
+  "title": "日本におけるPluralityの歴史（短縮版MVP）",
+  "blocks": [
+    {
+      "type": "markdown",
+      "text": "Scrapbox年表から、導入として最低限の節目を抜粋したストーリー。"
+    },
+    {
+      "type": "section",
+      "title": "主要イベント"
+    },
+    {
+      "type": "dot",
+      "dot": "glen-collab-book-launch-2022-09-16"
+    },
+    {
+      "type": "dot",
+      "dot": "plurality-tokyo-2023-04-14"
+    },
+    {
+      "type": "dot",
+      "dot": "autotrans-start-2023-10-17"
+    },
+    {
+      "type": "dot",
+      "dot": "social-hack-day-57-2024-01-20"
+    }
+  ]
+}

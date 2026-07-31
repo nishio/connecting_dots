@@ -1,0 +1,25 @@
+{
+  "id": "plurality-ja-localization-lead-2025",
+  "when": "2025",
+  "title": "『PLURALITY』日本語版の企画・編集リーダー",
+  "summary": "『PLURALITY』日本語版プロジェクトで、翻訳・編集の推進を担った。",
+  "tags": [
+    "profile",
+    "plurality",
+    "nishio-involved"
+  ],
+  "sources": [
+    {
+      "url": "https://labs.cybozu.co.jp/news/000077.html",
+      "label": "サイボウズ・ラボ新着: 『PLURALITY』刊行（西尾関与）"
+    },
+    {
+      "url": "https://cybozushiki.cybozu.co.jp/books/plurality/",
+      "label": "『PLURALITY』書籍ページ（サイボウズ式ブックス）"
+    },
+    {
+      "url": "https://scrapbox.io/nishio/pluralitybook",
+      "label": "Plurality 日本語版の翻訳プロジェクト"
+    }
+  ]
+}

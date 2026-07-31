@@ -1,0 +1,21 @@
+{
+  "id": "nishio-phd-2006",
+  "when": "2006",
+  "title": "24歳で博士（理学）を取得",
+  "summary": "自己紹介・経歴欄で博士号取得が明記されている。",
+  "tags": ["profile", "education", "nishio-involved"],
+  "sources": [
+    {
+      "url": "https://nishio.github.io/entrypoint/ja.html",
+      "label": "entrypoint: 自己紹介"
+    },
+    {
+      "url": "http://nhiro.org/ja.html",
+      "label": "nhiro.org: 日本語プロフィール（経歴）"
+    },
+    {
+      "url": "http://nhiro.org/static/doctor_e.pdf",
+      "label": "学位記（PDF）"
+    }
+  ]
+}

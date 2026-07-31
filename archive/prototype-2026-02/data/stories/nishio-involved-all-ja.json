@@ -1,0 +1,95 @@
+{
+  "id": "nishio-involved-all-ja",
+  "lang": "ja",
+  "title": "西尾関与 dots 全件（詳細）",
+  "blocks": [
+    {
+      "type": "markdown",
+      "text": "`nishio-involved` タグが付いたdotを時系列で並べた詳細ページ。プロフィール・活動・関連イベントを一望するための『全部入り』。"
+    },
+    {
+      "type": "markdown",
+      "text": "対象タグ: nishio-involved / 件数: 19"
+    },
+    {
+      "type": "section",
+      "title": "カード一覧"
+    },
+    {
+      "type": "dot",
+      "dot": "shin-tokyo-2050-broad-listening-2024-2025"
+    },
+    {
+      "type": "dot",
+      "dot": "plurality-ja-localization-lead-2025"
+    },
+    {
+      "type": "dot",
+      "dot": "digital-democracy-2030-kouchou-ai-idobata-2025"
+    },
+    {
+      "type": "dot",
+      "dot": "social-hack-day-57-2024-01-20"
+    },
+    {
+      "type": "dot",
+      "dot": "plurality-jp-glen-in-japan-2024-01-03"
+    },
+    {
+      "type": "dot",
+      "dot": "tokyo-gov-anno-broad-listening-2024"
+    },
+    {
+      "type": "dot",
+      "dot": "japan-choice-yoron-chizu-2024"
+    },
+    {
+      "type": "dot",
+      "dot": "autotrans-start-2023-10-17"
+    },
+    {
+      "type": "dot",
+      "dot": "plurality-tokyo-2023-04-14"
+    },
+    {
+      "type": "dot",
+      "dot": "nishio-engineers-way-book-published-2018-08"
+    },
+    {
+      "type": "dot",
+      "dot": "nishio-cybozu-labs-principal-researcher-2018-04"
+    },
+    {
+      "type": "dot",
+      "dot": "nishio-mitou-board-director-2015-09"
+    },
+    {
+      "type": "dot",
+      "dot": "nishio-pyconjp-keynote-2014-09"
+    },
+    {
+      "type": "dot",
+      "dot": "nishio-mot-degree-2014-09"
+    },
+    {
+      "type": "dot",
+      "dot": "nishio-word2vec-book-published-2014-05"
+    },
+    {
+      "type": "dot",
+      "dot": "nishio-langbook-published-2013-04"
+    },
+    {
+      "type": "dot",
+      "dot": "nishio-joined-cybozu-labs-2007-04"
+    },
+    {
+      "type": "dot",
+      "dot": "nishio-phd-2006"
+    },
+    {
+      "type": "dot",
+      "dot": "nishio-born-1981-07-23"
+    }
+  ]
+}

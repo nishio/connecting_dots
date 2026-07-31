@@ -1,0 +1,17 @@
+{
+  "id": "plurality-jp-dd2030-oss-release-2025-03-16",
+  "when": "2025-03-16",
+  "title": "デジタル民主主義2030が『いどばた』『広聴AI』をOSS公開",
+  "summary": "Scrapbox年表で、デジタル民主主義2030のOSS公開節目として記録されている。",
+  "tags": ["plurality", "plurality-history", "digital-democracy"],
+  "sources": [
+    {
+      "url": "https://scrapbox.io/plurality-japanese/%E6%97%A5%E6%9C%AC%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8BPlurality%E3%81%AE%E6%AD%B4%E5%8F%B2",
+      "label": "Scrapbox: 日本におけるPluralityの歴史"
+    },
+    {
+      "url": "https://dd2030.org/history",
+      "label": "デジタル民主主義2030: history"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "nishio-pyconjp-keynote-2014-09",
+  "when": "2014-09",
+  "title": "PyCon JP 2014で基調講演",
+  "summary": "PyCon JP 2014で基調講演を行った。",
+  "tags": ["profile", "talk", "nishio-involved"],
+  "sources": [
+    {
+      "url": "http://nhiro.org/ja.html",
+      "label": "nhiro.org: 日本語プロフィール（経歴）"
+    },
+    {
+      "url": "https://pycon.jp/2014/speaking/keynotes/",
+      "label": "PyCon JP 2014 Keynotes"
+    }
+  ]
+}

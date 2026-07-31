@@ -1,0 +1,27 @@
+{
+  "id": "tokyo-gov-anno-broad-listening-2024",
+  "when": "2024",
+  "title": "都知事選2024（安野貴博氏）でブロードリスニングに関与",
+  "summary": "東京都知事選における安野陣営で、広聴型の情報収集・整理に関与した。",
+  "tags": [
+    "profile",
+    "election",
+    "broad-listening",
+    "plurality",
+    "nishio-involved"
+  ],
+  "sources": [
+    {
+      "url": "https://labs.cybozu.co.jp/member/nishio.html",
+      "label": "サイボウズ・ラボ メンバープロフィール（都知事選2024での関与）"
+    },
+    {
+      "url": "https://dd2030.org/kouchou-ai",
+      "label": "デジタル民主主義2030: 広聴AI（都知事選2024でのTTTC活用記載）"
+    },
+    {
+      "url": "https://labs.cybozu.co.jp/news/000056.html",
+      "label": "サイボウズ・ラボ新着: 安野貴博氏とのブロードリスニング対談"
+    }
+  ]
+}

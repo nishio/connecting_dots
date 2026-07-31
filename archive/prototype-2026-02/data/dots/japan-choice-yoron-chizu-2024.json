@@ -1,0 +1,22 @@
+{
+  "id": "japan-choice-yoron-chizu-2024",
+  "when": "2024",
+  "title": "JAPAN CHOICE『世論地図（ヨロンチズ）』の実装協力",
+  "summary": "JAPAN CHOICEの世論地図プロジェクトで、実装面の協力を行った。",
+  "tags": [
+    "profile",
+    "civic-tech",
+    "plurality",
+    "nishio-involved"
+  ],
+  "sources": [
+    {
+      "url": "https://japanchoice.jp/public-opinion",
+      "label": "JAPAN CHOICE: 世論を追う（世論地図プロジェクト）"
+    },
+    {
+      "url": "https://labs.cybozu.co.jp/member/nishio.html",
+      "label": "サイボウズ・ラボ メンバープロフィール（世論地図の実装協力）"
+    }
+  ]
+}

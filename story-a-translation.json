@@ -1,0 +1,66 @@
+{
+  "$comment": "Pilot Story object for Story A (Plurality 日本語訳プロジェクト運用史). References dot ids from dots.json.",
+  "schema_version": "0.1-pilot",
+  "id": "story-a-translation-history",
+  "title": "Plurality 日本語訳プロジェクト運用史",
+  "language": "ja",
+  "audience": ["translation-community", "plurality-context", "open-source-contributor"],
+  "purpose": "翻訳コミュニティの形成と運用ノウハウの記録 / 共通点を作る",
+  "author": "nishio",
+  "intro": "Plurality 本の日本語訳プロジェクトは、Glen Weyl の翻訳公募(2022-09)から日本語版オンライン全文公開(2025-09)まで約3年。autotrans / season 1〜3 / Trinity Merge / 完全コミュニティ管理フェーズという運用学習の歴史でもあった。",
+  "dots": [
+    "2022-09-08-glen-call-for-translators",
+    "2022-09-16-collaborative-book-project-launch",
+    "2022-11-16-plurality-net-maintenance-call",
+    "2023-04-14-plurality-tokyo",
+    "2023-10-08-nishio-discord-join",
+    "2023-10-17-autotrans-launch",
+    "2023-10-17-plurality-vector-search-release",
+    "2024-01-16-audrey-pr63",
+    "2024-01-20-trinity-merge-season-2",
+    "2024-02-29-season-3-no-merge",
+    "2024-03-04-cybozushiki-books-publication",
+    "2024-03-18-autotrans-stop",
+    "2024-04-01-yamagata-translator-meeting",
+    "2024-04-02-vecsearch-ja-release",
+    "2024-04-18-english-edition-to-press",
+    "2024-05-09-full-community-management-phase",
+    "2024-05-20-english-edition-published",
+    "2025-05-02-japanese-edition-published",
+    "2025-09-05-japanese-edition-online-fulltext"
+  ],
+  "captions": {
+    "2022-09-16-collaborative-book-project-launch": "翻訳プロジェクトの公式な始まり。日本語版も Overview の前まで提示・公開された",
+    "2023-04-14-plurality-tokyo": "日本側コミュニティの可視化。nishio が Audrey Keynote を翻訳したことで翻訳の流れに正式参加",
+    "2023-10-17-autotrans-launch": "season 1: 自動翻訳と人間翻訳の併用を試みる。最初の運用形態",
+    "2024-01-20-trinity-merge-season-2": "season 2: 上流変更と season 1 を統合(Trinity Merge=英文・華文・和文の三者合流)。並列機械翻訳の読みづらさが運用学習として残った",
+    "2024-02-29-season-3-no-merge": "season 3: マージを止めて AI による並行的言い換えに振った方針転換",
+    "2024-03-18-autotrans-stop": "autotrans の役割を終え、コミュニティ運用へ移行する区切り",
+    "2024-05-09-full-community-management-phase": "個人運用からコミュニティ運用への完全移行",
+    "2024-05-20-english-edition-published": "英語版出版。翻訳プロジェクトの上流側の節目",
+    "2025-05-02-japanese-edition-published": "3年の翻訳プロジェクトの集大成",
+    "2025-09-05-japanese-edition-online-fulltext": "翻訳成果のオープン化"
+  },
+  "sections": [
+    {
+      "title": "プロジェクトの始まり (2022)",
+      "from": "2022-09-08-glen-call-for-translators",
+      "to": "2022-11-16-plurality-net-maintenance-call"
+    },
+    {
+      "title": "Plurality Tokyo と nishio の合流 (2023)",
+      "from": "2023-04-14-plurality-tokyo",
+      "to": "2023-10-17-plurality-vector-search-release"
+    },
+    {
+      "title": "season 1 → 2 → 3 の運用学習 (2024 上半期)",
+      "from": "2024-01-16-audrey-pr63",
+      "to": "2024-04-02-vecsearch-ja-release"
+    },
+    {
+      "title": "出版とコミュニティ運用 (2024 後半 〜 2025)",
+      "from": "2024-04-18-english-edition-to-press",
+      "to": "2025-09-05-japanese-edition-online-fulltext"
+    }
+  ]
+}

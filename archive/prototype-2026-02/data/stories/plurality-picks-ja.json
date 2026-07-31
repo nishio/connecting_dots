@@ -1,0 +1,51 @@
+{
+  "id": "plurality-picks-ja",
+  "lang": "ja",
+  "title": "Plurality関連 dots ピックアップ",
+  "blocks": [
+    {
+      "type": "markdown",
+      "text": "`plurality-all-ja` を母集団として、節目を短く把握するためのピックアップ版。今後の進展に合わせて更新する。"
+    },
+    {
+      "type": "markdown",
+      "text": "件数: 8"
+    },
+    {
+      "type": "section",
+      "title": "ピックアップ"
+    },
+    {
+      "type": "dot",
+      "dot": "glen-collab-book-launch-2022-09-16"
+    },
+    {
+      "type": "dot",
+      "dot": "plurality-jp-glen-translator-call-2022-09-08"
+    },
+    {
+      "type": "dot",
+      "dot": "plurality-tokyo-2023-04-14"
+    },
+    {
+      "type": "dot",
+      "dot": "autotrans-start-2023-10-17"
+    },
+    {
+      "type": "dot",
+      "dot": "plurality-jp-glen-in-japan-2024-01-03"
+    },
+    {
+      "type": "dot",
+      "dot": "plurality-jp-shin-tokyo-2050-project-start-2024-11-22"
+    },
+    {
+      "type": "dot",
+      "dot": "plurality-jp-dd2030-oss-release-2025-03-16"
+    },
+    {
+      "type": "dot",
+      "dot": "plurality-jp-book-release-2025-05-02"
+    }
+  ]
+}

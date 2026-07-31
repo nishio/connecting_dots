@@ -1,0 +1,36 @@
+{
+  "id": "nishio-profile-ja",
+  "lang": "ja",
+  "title": "西尾泰和：最近の活動（MVP）",
+  "blocks": [
+    {
+      "type": "markdown",
+      "text": "固定プロフィールではなく、活動（dots）を並べたストーリーとして自己紹介を提示するMVP。"
+    },
+    {
+      "type": "section",
+      "title": "最近の活動ハイライト"
+    },
+    {
+      "type": "dot",
+      "dot": "plurality-ja-localization-lead-2025",
+      "caption": "『PLURALITY』日本語版での役割"
+    },
+    {
+      "type": "dot",
+      "dot": "shin-tokyo-2050-broad-listening-2024-2025"
+    },
+    {
+      "type": "dot",
+      "dot": "tokyo-gov-anno-broad-listening-2024"
+    },
+    {
+      "type": "dot",
+      "dot": "digital-democracy-2030-kouchou-ai-idobata-2025"
+    },
+    {
+      "type": "dot",
+      "dot": "japan-choice-yoron-chizu-2024"
+    }
+  ]
+}

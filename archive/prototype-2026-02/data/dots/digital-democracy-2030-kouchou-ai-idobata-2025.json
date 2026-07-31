@@ -1,0 +1,30 @@
+{
+  "id": "digital-democracy-2030-kouchou-ai-idobata-2025",
+  "when": "2025",
+  "title": "デジタル民主主義2030（広聴AI / いどばた）",
+  "summary": "デジタル民主主義2030の取り組みで、広聴AIやいどばた関連の活動に携わった。",
+  "tags": [
+    "profile",
+    "digital-democracy",
+    "plurality",
+    "nishio-involved"
+  ],
+  "sources": [
+    {
+      "url": "https://dd2030.org/kouchou-ai",
+      "label": "デジタル民主主義2030: 広聴AI"
+    },
+    {
+      "url": "https://dd2030.org/idobata",
+      "label": "デジタル民主主義2030: いどばた"
+    },
+    {
+      "url": "https://labs.cybozu.co.jp/news/000070.html",
+      "label": "サイボウズ・ラボ新着: デジタル民主主義研究ユニット参加"
+    },
+    {
+      "url": "https://labs.cybozu.co.jp/news/000094.html",
+      "label": "サイボウズ・ラボ新着: いどばたワークショップ（西尾関与）"
+    }
+  ]
+}

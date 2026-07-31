@@ -1,0 +1,17 @@
+{
+  "id": "nishio-joined-cybozu-labs-2007-04",
+  "when": "2007-04",
+  "title": "サイボウズ・ラボにソフトウェアエンジニアとして参加",
+  "summary": "2007年4月にサイボウズ・ラボへ参加し、以降継続して活動している。",
+  "tags": ["profile", "career", "nishio-involved"],
+  "sources": [
+    {
+      "url": "http://nhiro.org/ja.html",
+      "label": "nhiro.org: 日本語プロフィール（経歴）"
+    },
+    {
+      "url": "https://nishio.github.io/entrypoint/ja.html",
+      "label": "entrypoint: 自己紹介"
+    }
+  ]
+}

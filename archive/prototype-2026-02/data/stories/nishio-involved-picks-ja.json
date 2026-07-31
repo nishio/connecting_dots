@@ -1,0 +1,51 @@
+{
+  "id": "nishio-involved-picks-ja",
+  "lang": "ja",
+  "title": "西尾関与 dots ピックアップ",
+  "blocks": [
+    {
+      "type": "markdown",
+      "text": "`nishio-involved-all-ja` を母集団として、現時点で優先して見せるカードを選んだ版。状況に応じて差し替える運用を想定。"
+    },
+    {
+      "type": "markdown",
+      "text": "件数: 8"
+    },
+    {
+      "type": "section",
+      "title": "ピックアップ"
+    },
+    {
+      "type": "dot",
+      "dot": "plurality-ja-localization-lead-2025"
+    },
+    {
+      "type": "dot",
+      "dot": "shin-tokyo-2050-broad-listening-2024-2025"
+    },
+    {
+      "type": "dot",
+      "dot": "tokyo-gov-anno-broad-listening-2024"
+    },
+    {
+      "type": "dot",
+      "dot": "digital-democracy-2030-kouchou-ai-idobata-2025"
+    },
+    {
+      "type": "dot",
+      "dot": "japan-choice-yoron-chizu-2024"
+    },
+    {
+      "type": "dot",
+      "dot": "nishio-cybozu-labs-principal-researcher-2018-04"
+    },
+    {
+      "type": "dot",
+      "dot": "nishio-langbook-published-2013-04"
+    },
+    {
+      "type": "dot",
+      "dot": "nishio-word2vec-book-published-2014-05"
+    }
+  ]
+}
