@@ -394,7 +394,8 @@
         "Plurality本発売",
         "サイボウズ式ブックス"
       ],
-      "verifiability": "internal-only"
+      "verifiability": "internal-only",
+      "notes": "西尾は日本語版『PLURALITY』のプロジェクトリーダー。この役割は自称ではなく、Glen in Japan(2024-01-03, Dot=2024-01-03-glen-in-japan)で Glen Weyl に指名されたもの。サイボウズ式ブックスから刊行。"
     },
     {
       "id": "2025-09-05-japanese-edition-online-fulltext",
@@ -1164,7 +1165,7 @@
         "未踏と僕の関わり"
       ],
       "verifiability": "external",
-      "notes": "『育ててもらった側から育てる側へ』の縦糸の現在地。メンターコミュニティは安野貴博・新美陸人ら後年の協働のハブにもなった（関係主張はStory側で扱い、未検証の帰属はDot化しない）。"
+      "notes": "『育ててもらった側から育てる側へ』の縦糸の現在地。未踏ジュニアのメンターコミュニティは後年の協働のハブになった: 修了生の新美陸人が Plurality Tokyo を発起（事実）、安野貴博とはメンター同士として面識（事実）。これらは事実だが Story では焦点化しない（dots に記録）。"
     },
     {
       "id": "2017-beproud-technical-advisor",
