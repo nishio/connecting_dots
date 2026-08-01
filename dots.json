@@ -977,7 +977,9 @@
         "teaching",
         "monka-it-school"
       ],
-      "refs": [],
+      "refs": [
+        "https://nhiro.org/history-ja.html"
+      ],
       "cosense_refs": [],
       "verifiability": "internal-only",
       "notes": "3年間の同一役割（チューター）を1 Dot に畳む。"
@@ -1083,7 +1085,9 @@
         "teaching",
         "university-lecturer"
       ],
-      "refs": [],
+      "refs": [
+        "https://nhiro.org/history-ja.html"
+      ],
       "cosense_refs": [],
       "verifiability": "internal-only"
     },
@@ -1187,9 +1191,12 @@
         "book",
         "kids"
       ],
-      "refs": [],
+      "refs": [
+        "https://nhiro.org/history-ja.html",
+        "https://scrapbox.io/nishio/世界一わかりやすい！プログラミングのしくみ"
+      ],
       "cosense_refs": [],
-      "verifiability": "internal-only",
+      "verifiability": "external",
       "notes": "毎日新聞社「NEWSがわかる」での連載(2016–2017)に加筆したもの。"
     },
     {
@@ -1205,7 +1212,9 @@
         "teaching",
         "university"
       ],
-      "refs": [],
+      "refs": [
+        "https://nhiro.org/history-ja.html"
+      ],
       "cosense_refs": [],
       "verifiability": "internal-only"
     },
@@ -1223,9 +1232,12 @@
         "profile",
         "research"
       ],
-      "refs": [],
+      "refs": [
+        "https://labs.cybozu.co.jp/member/nishio.html",
+        "https://nhiro.org/history-ja.html"
+      ],
       "cosense_refs": [],
-      "verifiability": "internal-only",
+      "verifiability": "external",
       "notes": "『知的生産性の向上（手段）と文明の進歩（目的）』という関心軸の制度的な拠点。2007入社と2018主幹研究員昇格を1 Dot に畳む。"
     },
     {
@@ -1370,11 +1382,13 @@
         "writing",
         "collective"
       ],
-      "refs": [],
+      "refs": [
+        "情報処理 Vol.64 No.9 (2023) 「主観か客観かではなく、一人の主観から大勢の主観へ」(情報処理学会, ChatGPT特集)"
+      ],
       "cosense_refs": [
         "主観か客観かではなく、一人の主観から大勢の主観へ"
       ],
-      "verifiability": "internal-only",
+      "verifiability": "external",
       "notes": "知的生産の主語が『個人』から『集団（大勢の主観）』へ拡張する橋渡し。ブロードリスニング実践へつながる。"
     },
     {
@@ -1587,7 +1601,9 @@
         "profile",
         "biography"
       ],
-      "refs": [],
+      "refs": [
+        "https://nhiro.org/history-ja.html"
+      ],
       "cosense_refs": [],
       "verifiability": "internal-only",
       "notes": "Set A 由来の素経歴。どの facet Story にも属さない孤児 Dot（orphan-dot-discovery）。"
