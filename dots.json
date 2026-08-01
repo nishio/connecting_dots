@@ -1252,22 +1252,24 @@
     {
       "id": "2010-12-wdpress-vol60-language-design",
       "date": "2010-12",
-      "event": "WEB+DB PRESS Vol.60 特集1「プログラマが知るべき言語設計の基礎知識」を執筆（言語の誕生・文法と構造化・スコープ・オブジェクト・継承）",
+      "event": "WEB+DB PRESS Vol.60 特集1「プログラマが知るべき言語設計の基礎知識」を まつもとゆきひろ（Matz、Rubyの作者）と共同執筆（第1章=Matz、第2〜6章=西尾）",
       "kind": "publication",
       "entities": [
-        "技術評論社"
+        "技術評論社",
+        "まつもとゆきひろ"
       ],
       "tags": [
         "intellectual-production",
         "writing",
-        "programming-languages"
+        "programming-languages",
+        "matz"
       ],
       "refs": [
         "https://gihyo.jp/magazine/wdpress/archive/2011/vol60"
       ],
       "cosense_refs": [],
       "verifiability": "external",
-      "notes": "この単発特集記事（第2〜6章を執筆）がのちに書籍版『コーディングを支える技術』(2013, Dot=2013-04-langbook)へ発展した——書籍化の直接の起点。"
+      "notes": "Rubyの作者 まつもとゆきひろ（Matz）との共同特集（Matzが第1章「言語設計とプログラミング」、西尾が第2〜6章）。海外読者にも通りやすい点でnotable。この単発特集記事がのちに書籍版『コーディングを支える技術』(2013, Dot=2013-04-langbook)へ発展した——書籍化の直接の起点。"
     },
     {
       "id": "2013-04-langbook",
