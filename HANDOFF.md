@@ -9,7 +9,8 @@
 - **フラットプールの実効**: テーマ間 Dot 共有 13件。plurality-facet は**新規 Dot ゼロ**で、既存 Dot 7件を『西尾個人の関与』という別 View（別 caption）で再編集しただけ＝flatness-is-view-resolution / relationships-as-edits の実証。Story A/C が『プロジェクト運用史 View』なら plurality-facet は『個人関与史 View』。
 - **Story の dots[] 配列順が描画順＝セクション境界**（build の `_render_story` は from/to を配列 index に写す）。共有 Dot を挿入したら**時系列を崩さない位置に**置くこと（崩すとセクション間で無所属 Dot が浮く）。
 - **孤児 Dot 4件**: `2022-08-17-rxc-unconference`（既存）／`2003-super-creator-certification`／`1981-07-23-nishio-born`／`2014-09-mot-degree`／`2014-09-pyconjp-keynote`。どの Story にも属さないが一級で発見可能（orphan-dot-discovery）。
-- **公開レビューで Dot を追加/精緻化**（2026-08-01、西尾と対話）。現在 **80 Dot / 7 Story**。追加: WEB+DB PRESS Vol.60特集(Matz共著)／続・エンジニアの学び方／視点を変えてみよう／Sustainable Brands Tokyo 2026／OSSクエスト(制作関与)。削除: LENCHI(重要度低)。帰属・日付・因果の誤りを多数修正（下記「公開レビューの確定事項」）。
+- **ボードゲーム/ガジェット系 Dot 3件追加**（2026-08-01、西尾指定のCosenseソースから）: パスタロジック発売(2020-11)／01VERSE発売(2023-05-12, リメイク)／MUROTO(2010-05, 久池井淳と)。全て孤児（孤児計8件）。現在 **83 Dot / 7 Story**。
+- **公開レビューで Dot を追加/精緻化**（2026-08-01、西尾と対話）。80 Dot 時点。追加: WEB+DB PRESS Vol.60特集(Matz共著)／続・エンジニアの学び方／視点を変えてみよう／Sustainable Brands Tokyo 2026／OSSクエスト(制作関与)。削除: LENCHI(重要度低)。帰属・日付・因果の誤りを多数修正（下記「公開レビューの確定事項」）。
 - **✅ 外向き公開 実施済み**（下記「外向きステップ」）: GitHub public repo ＋ `https://nhiro.org/dots.json` ライブ。
 - **⚠️ 未解決 = 人間向けランディングの命名**: `dots.html`(入口=Story目次+リンク) と `all-dots.html`(全80Dot一覧) が併存して紛らわしい。**案A=1ページ統合(dots.htmlのみ, all-dots廃止)／案B=dots.html(全件)+stories.html(目次)** のどちらか未決。決めてから build.py・配信ファイル・トップリンクを直す。**nhiro.org トップ(ja.html)の入口リンクは命名未確定のため一旦削除済み**（決まったら戻す）。dots.json 等のデータ面は公開継続中。
 - **プロセス教訓（西尾フィードバック）**: 複数ファイルをまとめて書き換える前に「何をどう変えるか」を**先に列挙して合意**を取ってから着手する。コンテキスト逼迫時ほど焦って書き換えすぎない。

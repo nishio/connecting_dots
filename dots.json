@@ -1753,6 +1753,88 @@
       "cosense_refs": [],
       "verifiability": "external",
       "notes": "特集「エンジニアの学び方」(2014)の好評を受けた連載。『エンジニアの知的生産術』(2018)の書籍企画につながる中間段階。"
+    },
+    {
+      "id": "2020-11-pastalogic-release",
+      "date": "2020-11",
+      "event": "自作の2人対戦ボードゲーム「パスタロジック」を発売（J.C.クリエイツ、BOOTH等で頒布）。実行時自己書き換えするプログラムを2人のプレイヤーが奪い合う論理的思考バトル",
+      "kind": "release",
+      "entities": [
+        "パスタロジック",
+        "J.C.クリエイツ"
+      ],
+      "tags": [
+        "board-game",
+        "creation",
+        "programming"
+      ],
+      "refs": [
+        "https://pastalogic.com/",
+        "https://jccreates.booth.pm/items/2529954",
+        "https://twitter.com/tokoroten/status/1327436042643771393"
+      ],
+      "cosense_refs": [
+        "パスタロジック",
+        "パスタロジック命名",
+        "「スパゲッティコード」ルール"
+      ],
+      "verifiability": "external",
+      "notes": "2019年6月に開発コードネーム「スパゲッティコード」としてルール設計を開始し、2019年10月に「パスタロジック」へ改名。2023年に本作を原案とするリメイク『01VERSE』が小学館グッドゲームズから発売された。"
+    },
+    {
+      "id": "2023-05-12-01verse-release",
+      "date": "2023-05-12",
+      "event": "「パスタロジック」を原案とするリメイク版ボードゲーム『01VERSE ゼロワンバース』が小学館グッドゲームズから発売（西尾泰和・郡山喜彦・ポーン）",
+      "kind": "release",
+      "entities": [
+        "01VERSE",
+        "パスタロジック",
+        "小学館グッドゲームズ",
+        "郡山喜彦",
+        "ポーン"
+      ],
+      "tags": [
+        "board-game",
+        "creation",
+        "programming"
+      ],
+      "refs": [
+        "https://twitter.com/nishio/status/1636283898639577090",
+        "https://twitter.com/Drosselmeyers_/status/1636277531572846594",
+        "https://www.amazon.co.jp/dp/4093881073"
+      ],
+      "cosense_refs": [
+        "01VERSE"
+      ],
+      "verifiability": "external",
+      "notes": "西尾は原案（パスタロジック）の作者。基本ルールの洗練は郡山喜彦（ForGames）、ソロプレイモード制作はポーン、グラフィックデザインはTANSANFABRIK。プログラミング×バトルの2人対戦＋ソロプレイモード搭載。"
+    },
+    {
+      "id": "2010-05-muroto",
+      "date": "2010-05",
+      "event": "iPad/iPhoneのマルチタッチ画面上に置いたフィギュアの種類・位置・向きを認識しコントローラにする技術「MUROTO」を久池井淳（gasso）と開発、Make: Tokyo Meeting 05 で展示し解説動画とソースコードを公開",
+      "kind": "release",
+      "entities": [
+        "MUROTO",
+        "久池井淳"
+      ],
+      "tags": [
+        "tool",
+        "creation",
+        "tangible-interface"
+      ],
+      "refs": [
+        "https://nishiohirokazu.hatenadiary.org/archive/2010/05/23",
+        "https://nishiohirokazu.hatenadiary.org/archive/2010/05/25",
+        "http://www.youtube.com/watch?v=4MsaI8kGbzE"
+      ],
+      "cosense_refs": [
+        "Hatena2010-05-23",
+        "Hatena2010-05-25",
+        "Hatena2011-12-11"
+      ],
+      "verifiability": "external",
+      "notes": "ソースコードは Google Code (code.google.com/p/muroto) で公開。2011年12月には改良版MUROTO技術を用いたテーブル型モニター向けフィギュア操作シューティングゲームを、未踏で知り合った仲間（久池井淳・上田真史・中山心太）とトレジャーフェスタ2011（東京ビッグサイト）で展示すると告知した。"
     }
   ]
 }
