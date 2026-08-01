@@ -5,10 +5,11 @@
 
 ## 現在地（TL;DR）
 - 設計は closed。`build.py` v0 が end-to-end で動作。
-- **本移行 進行中**。完了テーマ: **highdim**（7）／**mentoring**（14）／**intellectual-production**（9）／**broadlistening**（8）。現在 **73 Dot / 6 Story**（story-highdim / -mentoring / -intellectual-production / -broadlistening ＋ 既存 Plurality 2本）、build 動作確認済み。**やり方（3工程）は下記「移行プレイブック」で確立**。
-- **フラットプールの実効**: テーマ間 Dot 共有 9件。例: `2014-05-word2vec-book`＝highdim/IP、`2013-04-langbook`・`2018-08-engineers-way-book`＝mentoring/IP、`2023-08-johoshori-chatgpt-essay`＝IP/broadlistening、`2024-05-bunkacho-paccomment-broadlistening`・`2024-kouchou-ai-development`＝highdim/broadlistening、`2025-05-02-japanese-edition-published`＝Plurality Story A/broadlistening。
+- **★自己紹介 Dot の本移行 完了**（2026-08-01）。5 facet Story すべて Dot 化・Story 化済み: **highdim**(7)／**mentoring**(14)／**intellectual-production**(9)／**broadlistening**(8)／**plurality**(新規0=全再利用)。＋素経歴の孤児 Dot 3件。現在 **76 Dot / 7 Story**（facet 5本＋既存 Plurality 運用史 2本）、build 動作確認済み。やり方は下記「移行プレイブック」。
+- **フラットプールの実効**: テーマ間 Dot 共有 13件。plurality-facet は**新規 Dot ゼロ**で、既存 Dot 7件を『西尾個人の関与』という別 View（別 caption）で再編集しただけ＝flatness-is-view-resolution / relationships-as-edits の実証。Story A/C が『プロジェクト運用史 View』なら plurality-facet は『個人関与史 View』。
 - **Story の dots[] 配列順が描画順＝セクション境界**（build の `_render_story` は from/to を配列 index に写す）。共有 Dot を挿入したら**時系列を崩さない位置に**置くこと（崩すとセクション間で無所属 Dot が浮く）。
-- **次の作業 = 最後のテーマ plurality-facet**。既存の Plurality 35 Dot（Story A 翻訳史 / Story C コミュニティ史）は運用史で、facet Story『Plurality』は西尾個人の関与の縦糸。多くは既存 Dot 再利用になる見込み。一次は `entrypoint/docs/plurality/ja.html` ＋ 既存 dots.json。
+- **孤児 Dot 4件**: `2022-08-17-rxc-unconference`（既存）／`2003-super-creator-certification`／`1981-07-23-nishio-born`／`2014-09-mot-degree`／`2014-09-pyconjp-keynote`。どの Story にも属さないが一級で発見可能（orphan-dot-discovery）。
+- **次の作業 = 外向きステップ**（下記「外向きステップ」参照）。移行そのものは完了。残る Set A の未収録素経歴があれば随時 dots.json へ孤児として追加してよい。
 
 ## 移行プレイブック（highdim で確立、以降のテーマもこれで）
 1. **atomize** — facet Story の `<li>` と旧プロトタイプ Dot（`archive/prototype-2026-02/data/dots/`）を atomic fact に分解。判定「同じ atomic イベントか別の事実か」。**credential（学位・認定）は研究とは別 fact に分割**（cf. 24歳博士）。

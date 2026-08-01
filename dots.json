@@ -1573,6 +1573,63 @@
       "cosense_refs": [],
       "verifiability": "external",
       "notes": "都知事選2024・シン東京2050の詳細事例章を含む。刊行前のため date は開区間。"
+    },
+    {
+      "id": "1981-07-23-nishio-born",
+      "date": "1981-07-23",
+      "event": "西尾泰和 誕生",
+      "kind": "act",
+      "entities": [
+        "nishio"
+      ],
+      "tags": [
+        "profile",
+        "biography"
+      ],
+      "refs": [],
+      "cosense_refs": [],
+      "verifiability": "internal-only",
+      "notes": "Set A 由来の素経歴。どの facet Story にも属さない孤児 Dot（orphan-dot-discovery）。"
+    },
+    {
+      "id": "2014-09-mot-degree",
+      "date": "2014-09",
+      "event": "東京工業大学で技術経営修士（専門職, MOT）を取得",
+      "kind": "education",
+      "entities": [
+        "東京工業大学"
+      ],
+      "tags": [
+        "profile",
+        "education",
+        "credential"
+      ],
+      "refs": [
+        "http://nhiro.org/static/mot.pdf"
+      ],
+      "cosense_refs": [],
+      "verifiability": "external",
+      "notes": "Set A 由来の素経歴。2011-04/2014-09 に技術経営専攻 専門職学位課程 在籍。孤児 Dot。"
+    },
+    {
+      "id": "2014-09-pyconjp-keynote",
+      "date": "2014-09",
+      "event": "PyCon JP 2014 で基調講演",
+      "kind": "act",
+      "entities": [
+        "PyCon JP"
+      ],
+      "tags": [
+        "profile",
+        "talk"
+      ],
+      "refs": [
+        "https://pycon.jp/2014/speaking/keynotes/",
+        "http://www.slideshare.net/nishio/pyconjp-keynote-speach-japanese-version"
+      ],
+      "cosense_refs": [],
+      "verifiability": "external",
+      "notes": "Set A 由来の素経歴。孤児 Dot。"
     }
   ]
 }
