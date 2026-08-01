@@ -1394,6 +1394,185 @@
       "cosense_refs": [],
       "verifiability": "internal-only",
       "notes": "契機は『エンジニアの知的生産術』第5刷(2024-04)と5刷記念講演「LLMを使いこなすエンジニアの知的生産術」(2024-06)。"
+    },
+    {
+      "id": "2023-04-broadlistening-encounter",
+      "date": "2023-04",
+      "event": "書籍『Plurality』の草稿を通じて「ブロードリスニング（broad listening）」の概念に出会う",
+      "kind": "act",
+      "entities": [
+        "Plurality"
+      ],
+      "tags": [
+        "broadlistening",
+        "plurality",
+        "origin"
+      ],
+      "refs": [
+        "https://scrapbox.io/nishio/ブロードリスニング：みんなが聖徳太子になる技術"
+      ],
+      "cosense_refs": [
+        "ブロードリスニング：みんなが聖徳太子になる技術"
+      ],
+      "verifiability": "internal-only",
+      "notes": "当時のメモ『ブロードリスニングは生身の人間には不可能な多勢の意見を聞くことを可能にする技術。人間増強の一種として興味がある』。知的生産性向上の関心軸を『個人の増強』から『他者理解能力の増強』へ延長する起点。定式化は研究者 Andrew Trask による。"
+    },
+    {
+      "id": "2024-07-tochijisen-2024-broadlistening",
+      "date": "2024-07",
+      "event": "東京都知事選2024で安野貴博候補の陣営に関与し、選挙運動におけるブロードリスニングを実践",
+      "kind": "act",
+      "entities": [
+        "安野貴博",
+        "デジタル民主主義2030"
+      ],
+      "tags": [
+        "broadlistening",
+        "election",
+        "civic-tech"
+      ],
+      "refs": [
+        "https://scrapbox.io/nishio/都知事選2024",
+        "https://broadlisteningbook.com/ja/04_01_安野貴博の取り組み.html"
+      ],
+      "cosense_refs": [
+        "都知事選2024"
+      ],
+      "verifiability": "external",
+      "notes": "ブロードリスニング実践の代表事例。西尾は陣営で広聴型の情報収集・整理に関与（選挙運動そのものを主導したという主張ではない、過剰帰属を避ける）。安野貴博とは未踏ジュニアのメンター同士として面識があった。"
+    },
+    {
+      "id": "2024-09-cybozu-internal-broadlistening",
+      "date": "2024-09",
+      "event": "サイボウズ社内の企業文化ワークショップ（100人のマネージャー参加）で、kintone に記録した議論を Talk to the City で可視化",
+      "kind": "act",
+      "entities": [
+        "サイボウズ",
+        "Talk to the City"
+      ],
+      "tags": [
+        "broadlistening",
+        "enterprise",
+        "application"
+      ],
+      "refs": [
+        "https://scrapbox.io/nishio/サイボウズ社内でのブロードリスニング活用事例"
+      ],
+      "cosense_refs": [
+        "サイボウズ社内でのブロードリスニング活用事例"
+      ],
+      "verifiability": "internal-only",
+      "notes": "マス政治以外（企業内）へのブロードリスニング応用例。"
+    },
+    {
+      "id": "2024-10-japan-choice-yoron-chizu",
+      "date": "2024-10-18",
+      "event": "JAPAN CHOICE「世論地図（ヨロンチズ）」の実装に協力（2024衆院選に向けた意見収集・可視化サービス）",
+      "kind": "release",
+      "entities": [
+        "JAPAN CHOICE"
+      ],
+      "tags": [
+        "broadlistening",
+        "civic-tech",
+        "election"
+      ],
+      "refs": [
+        "https://japanchoice.jp/public-opinion",
+        "https://labs.cybozu.co.jp/member/nishio.html"
+      ],
+      "cosense_refs": [],
+      "verifiability": "external",
+      "notes": "実装面の協力（単独開発ではない）。"
+    },
+    {
+      "id": "2024-2025-shin-tokyo-2050-broadlistening",
+      "date": "2024-11/2025-01",
+      "event": "東京都の長期戦略「シン東京2050」への意見大募集に AI ブロードリスニングを適用（安野貴博とともに、最終分析は2025-01-31公開）",
+      "kind": "act",
+      "entities": [
+        "東京都",
+        "安野貴博",
+        "デジタル民主主義2030"
+      ],
+      "tags": [
+        "broadlistening",
+        "policy",
+        "government"
+      ],
+      "refs": [
+        "https://scrapbox.io/nishio/シン東京2050ブロードリスニング",
+        "https://broadlisteningbook.com/ja/05_東京都、シン東京2050、ブロードリスニングによる政策転換.html",
+        "https://dd2030.org/kouchou-ai/case"
+      ],
+      "cosense_refs": [
+        "シン東京2050ブロードリスニング"
+      ],
+      "verifiability": "external",
+      "notes": "行政の政策形成にブロードリスニングを適用した事例。"
+    },
+    {
+      "id": "2025-idobata-platform",
+      "date": "2025/..",
+      "event": "デジタル民主主義2030で「いどばた（idobata）」— 政策への意見交換・熟議のためのプラットフォーム — の開発に携わる",
+      "kind": "release",
+      "entities": [
+        "デジタル民主主義2030",
+        "いどばた"
+      ],
+      "tags": [
+        "broadlistening",
+        "digital-democracy",
+        "deliberation",
+        "tool"
+      ],
+      "refs": [
+        "https://github.com/digitaldemocracy2030/idobata"
+      ],
+      "cosense_refs": [],
+      "verifiability": "external",
+      "notes": "広聴AI（意見の収集・可視化, Dot=2024-kouchou-ai-development）に対し、いどばたは熟議・意見交換を担う別ツール。"
+    },
+    {
+      "id": "2025-07-sangiin-2025-broadlistening",
+      "date": "2025-07",
+      "event": "参院選2025で広聴AIによる選挙でのブロードリスニングを実践",
+      "kind": "act",
+      "entities": [
+        "デジタル民主主義2030",
+        "広聴AI"
+      ],
+      "tags": [
+        "broadlistening",
+        "election",
+        "civic-tech"
+      ],
+      "refs": [
+        "https://scrapbox.io/nishio/参院選2025"
+      ],
+      "cosense_refs": [
+        "参院選2025"
+      ],
+      "verifiability": "internal-only"
+    },
+    {
+      "id": "2026-09-broadlistening-book",
+      "date": "2026-09/..",
+      "event": "共著書籍『政治・自治体・企業に広がるブロードリスニング』を執筆（2026-09刊行予定、先行公開ドラフトを日英でWeb公開中）",
+      "kind": "publication",
+      "entities": [],
+      "tags": [
+        "broadlistening",
+        "book",
+        "forthcoming"
+      ],
+      "refs": [
+        "https://broadlisteningbook.com/",
+        "https://broadlisteningbook.com/ja/"
+      ],
+      "cosense_refs": [],
+      "verifiability": "external",
+      "notes": "都知事選2024・シン東京2050の詳細事例章を含む。刊行前のため date は開区間。"
     }
   ]
 }

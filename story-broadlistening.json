@@ -1,0 +1,56 @@
+{
+  "$comment": "Facet Story『ブロードリスニングの実践』(自己紹介の縦糸)。放送(broadcasting)の対概念＝何百万人の声を聞き集合知を一つの声にまとめる能力。共有 Dot 4件を再利用(2023-08 情報処理寄稿=IP, 2024-05 文化庁パブコメ・2024 広聴AI開発=highdim, 2025-05 Plurality邦訳=Plurality Story A)。単一フラットプール。",
+  "schema_version": "0.1-pilot",
+  "id": "broadlistening",
+  "title": "ブロードリスニングの実践",
+  "language": "ja",
+  "audience": ["デジタル民主主義に関心のある人", "自治体・企業", "一般"],
+  "purpose": "ブロードリスニング（何百万人の声を聞き集合知を一つの声にまとめる能力）の概念と、選挙・行政・企業での実践を示し、知的生産性向上の関心軸が『他者理解能力の増強』へ広がった現在地を伝える",
+  "author": "nishio",
+  "intro": "『ブロードリスニング』は『放送（broadcasting）』と対をなす概念。放送が一人の声を何百万人に届ける能力なら、ブロードリスニングは何百万人の声を聞き、その集合的な知恵を一つの共有された声にまとめ上げる能力（定式化は研究者 Andrew Trask による）。私は2023年4月に書籍『Plurality』の草稿でこの概念に出会い、一貫した関心軸『知的生産性の向上』の延長線上——個人の知的生産の増強から、人間の他者理解能力の増強へ——として実践してきた。",
+  "dots": [
+    "2023-04-broadlistening-encounter",
+    "2023-08-johoshori-chatgpt-essay",
+    "2024-05-bunkacho-paccomment-broadlistening",
+    "2024-07-tochijisen-2024-broadlistening",
+    "2024-09-cybozu-internal-broadlistening",
+    "2024-10-japan-choice-yoron-chizu",
+    "2024-2025-shin-tokyo-2050-broadlistening",
+    "2024-kouchou-ai-development",
+    "2025-idobata-platform",
+    "2025-05-02-japanese-edition-published",
+    "2025-07-sangiin-2025-broadlistening",
+    "2026-09-broadlistening-book"
+  ],
+  "captions": {
+    "2023-04-broadlistening-encounter": "始点。『Plurality』草稿でこの概念に出会い、人間増強の一種として興味を持った。",
+    "2023-08-johoshori-chatgpt-essay": "概念を自分の言葉で定式化。『一人の主観から大勢の主観へ』の図はCC0で公開し、以後ブロードリスニングの解説図として広く再利用されている。",
+    "2024-05-bunkacho-paccomment-broadlistening": "最初の具体的な実験。Talk to the City で文化庁パブコメを可視化し、意見のクラスタを地図にした。",
+    "2024-07-tochijisen-2024-broadlistening": "代表事例。都知事選2024の安野陣営で、選挙運動にブロードリスニングを実践した。",
+    "2024-09-cybozu-internal-broadlistening": "マス政治の外へ。サイボウズ社内100人のマネージャーのワークショップに応用した。",
+    "2024-10-japan-choice-yoron-chizu": "市民テックのサービスへ。JAPAN CHOICE『世論地図』の実装に協力した。",
+    "2024-2025-shin-tokyo-2050-broadlistening": "行政の政策形成へ。東京都『シン東京2050』の意見大募集にAIブロードリスニングを適用した。",
+    "2024-kouchou-ai-development": "実践を支えるツールをオープンソースで。デジタル民主主義2030の一員として広聴AI（kouchou-ai）を開発。",
+    "2025-idobata-platform": "『聞く』だけでなく『語り合う』へ。意見交換・熟議のプラットフォーム『いどばた』も開発した。",
+    "2025-05-02-japanese-edition-published": "背景となる思想書『Plurality』の日本語版を、プロジェクトリーダーとして刊行。ブロードリスニングの土台となる Plurality の文脈を日本に届けた。",
+    "2025-07-sangiin-2025-broadlistening": "選挙での実践を継続。参院選2025でも広聴AIによるブロードリスニングを行った。",
+    "2026-09-broadlistening-book": "実践の蓄積を一冊に。政治・自治体・企業に広がるブロードリスニングを共著でまとめ、ドラフトを日英で先行公開している。"
+  },
+  "sections": [
+    {
+      "title": "概念との出会いと定式化 (2023)",
+      "from": "2023-04-broadlistening-encounter",
+      "to": "2023-08-johoshori-chatgpt-essay"
+    },
+    {
+      "title": "選挙・行政・企業での実践 (2024–2025)",
+      "from": "2024-05-bunkacho-paccomment-broadlistening",
+      "to": "2024-2025-shin-tokyo-2050-broadlistening"
+    },
+    {
+      "title": "ツール・出版・継続する実践 (2024–現在)",
+      "from": "2024-kouchou-ai-development",
+      "to": "2026-09-broadlistening-book"
+    }
+  ]
+}
