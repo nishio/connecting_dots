@@ -1,5 +1,5 @@
 {
-  "$comment": "Pilot Dot extraction from Plurality日本語訳プロジェクト運用史 (Story A). Schema is exploratory — see NOTES.md.",
+  "$comment": "Single flat pool of accepted Dots. Story A (Plurality日本語訳運用史/コミュニティ史) からの pilot 抽出 + highdim(高次元ベクトル可視化)スレッドの本移行 Dot。Schema 0.1-pilot。",
   "schema_version": "0.1-pilot",
   "source": "raw/plurality-japanese-日本におけるpluralityの歴史.1hop (1).txt (mainpage)",
   "extracted_at": "2026-04-27",
@@ -10,8 +10,14 @@
       "date": "2022-08-17",
       "event": "RxC unConference 「Exploring digital identify for decentralized societies」 開催",
       "kind": "meeting",
-      "entities": ["RadicalxChange"],
-      "tags": ["plurality", "rxc", "translation-history-prelude"],
+      "entities": [
+        "RadicalxChange"
+      ],
+      "tags": [
+        "plurality",
+        "rxc",
+        "translation-history-prelude"
+      ],
       "refs": [
         "https://x.com/RadxChange/status/1559596385414139912",
         "https://x.com/RadxChange/status/1597761010219520000"
@@ -24,9 +30,17 @@
       "date": "2022-09-08",
       "event": "Glen Weyl が重要発表予定と翻訳協力者を Twitter で公募 → tkgshn が「All right」と返答",
       "kind": "act",
-      "entities": ["Glen Weyl", "tkgshn"],
-      "tags": ["plurality", "translation-history"],
-      "refs": ["https://x.com/0xtkgshn/status/1569710060422692866"],
+      "entities": [
+        "Glen Weyl",
+        "tkgshn"
+      ],
+      "tags": [
+        "plurality",
+        "translation-history"
+      ],
+      "refs": [
+        "https://x.com/0xtkgshn/status/1569710060422692866"
+      ],
       "cosense_refs": [],
       "verifiability": "external"
     },
@@ -35,9 +49,17 @@
       "date": "2022-09-16",
       "event": "Glen Weyl が共同書籍プロジェクトを発表、日本語版も Overview の前まで翻訳を提示・公開",
       "kind": "release",
-      "entities": ["Glen Weyl"],
-      "tags": ["plurality", "translation-history", "book"],
-      "refs": ["https://x.com/glenweyl/status/1570427940621402113"],
+      "entities": [
+        "Glen Weyl"
+      ],
+      "tags": [
+        "plurality",
+        "translation-history",
+        "book"
+      ],
+      "refs": [
+        "https://x.com/glenweyl/status/1570427940621402113"
+      ],
       "cosense_refs": [],
       "verifiability": "external"
     },
@@ -46,9 +68,20 @@
       "date": "2022-11-16",
       "event": "Glen Weyl が plurality.net のサイト保守を Twitter で公募。akinorioyama・taka・nishio らが挙手",
       "kind": "act",
-      "entities": ["Glen Weyl", "akinorioyama", "tkgshn", "nishio"],
-      "tags": ["plurality", "translation-history", "infrastructure"],
-      "refs": ["https://x.com/glenweyl/status/1600561082665271296"],
+      "entities": [
+        "Glen Weyl",
+        "akinorioyama",
+        "tkgshn",
+        "nishio"
+      ],
+      "tags": [
+        "plurality",
+        "translation-history",
+        "infrastructure"
+      ],
+      "refs": [
+        "https://x.com/glenweyl/status/1600561082665271296"
+      ],
       "cosense_refs": [],
       "verifiability": "external"
     },
@@ -57,10 +90,27 @@
       "date": "2023-04-14",
       "event": "Plurality Tokyo 開催。nishio が Audrey Tang Keynote を翻訳、Code for Japan チャンネルで字幕付き動画公開",
       "kind": "meeting",
-      "entities": ["hal sk", "rickshinmi", "tkgshn", "akinorioyama", "RadicalxChange", "Code for Japan", "Audrey Tang", "nishio"],
-      "tags": ["plurality", "tokyo", "translation-history"],
+      "entities": [
+        "hal sk",
+        "rickshinmi",
+        "tkgshn",
+        "akinorioyama",
+        "RadicalxChange",
+        "Code for Japan",
+        "Audrey Tang",
+        "nishio"
+      ],
+      "tags": [
+        "plurality",
+        "tokyo",
+        "translation-history"
+      ],
       "refs": [],
-      "cosense_refs": ["Plurality Tokyo", "Audrey Tang Keynote in Plurality Tokyo", "Plurality Tokyo YouTubeチャンネル"],
+      "cosense_refs": [
+        "Plurality Tokyo",
+        "Audrey Tang Keynote in Plurality Tokyo",
+        "Plurality Tokyo YouTubeチャンネル"
+      ],
       "verifiability": "internal-only"
     },
     {
@@ -68,10 +118,18 @@
       "date": "2023-10-08",
       "event": "nishio が The Plurality Book Discord に参加",
       "kind": "act",
-      "entities": ["nishio"],
-      "tags": ["plurality", "translation-history"],
+      "entities": [
+        "nishio"
+      ],
+      "tags": [
+        "plurality",
+        "translation-history"
+      ],
       "refs": [],
-      "cosense_refs": ["nishioのDiscord参加", "2023年10月の議論"],
+      "cosense_refs": [
+        "nishioのDiscord参加",
+        "2023年10月の議論"
+      ],
       "verifiability": "internal-only"
     },
     {
@@ -79,10 +137,19 @@
       "date": "2023-10-17",
       "event": "autotrans(本家 GitHub 原稿の毎日自動翻訳)稼働開始 → 仮称 season 1",
       "kind": "release",
-      "entities": ["nishio"],
-      "tags": ["plurality", "translation-history", "autotrans", "season-1"],
+      "entities": [
+        "nishio"
+      ],
+      "tags": [
+        "plurality",
+        "translation-history",
+        "autotrans",
+        "season-1"
+      ],
       "refs": [],
-      "cosense_refs": ["autotrans"],
+      "cosense_refs": [
+        "autotrans"
+      ],
       "verifiability": "internal-only",
       "notes": "原文側の変動が大きく、人間翻訳のボトルネックが nishio の PC 作業になることから、まず Scrapbox に転載する方針へ。電車でスマホで読みたかったという理由も。"
     },
@@ -91,10 +158,18 @@
       "date": "2023-10-17",
       "event": "Plurality Vector Search リリース",
       "kind": "release",
-      "entities": ["nishio"],
-      "tags": ["plurality", "translation-history", "search"],
+      "entities": [
+        "nishio"
+      ],
+      "tags": [
+        "plurality",
+        "translation-history",
+        "search"
+      ],
       "refs": [],
-      "cosense_refs": ["Plurality Vector Search"],
+      "cosense_refs": [
+        "Plurality Vector Search"
+      ],
       "verifiability": "internal-only"
     },
     {
@@ -102,9 +177,17 @@
       "date": "2024-01-16",
       "event": "Audrey Tang が PR#63 で Announcement の英文・華文に現状を反映(日本語側は未反映)",
       "kind": "act",
-      "entities": ["Audrey Tang", "akinorioyama"],
-      "tags": ["plurality", "translation-history"],
-      "refs": ["https://github.com/alexrandaccio/plurality.net/pull/63"],
+      "entities": [
+        "Audrey Tang",
+        "akinorioyama"
+      ],
+      "tags": [
+        "plurality",
+        "translation-history"
+      ],
+      "refs": [
+        "https://github.com/alexrandaccio/plurality.net/pull/63"
+      ],
       "cosense_refs": [],
       "verifiability": "external"
     },
@@ -113,10 +196,25 @@
       "date": "2024-01-20",
       "event": "Social Hack Day #57 で初の読書会。Trinity Merge を作成し season 1 と気合いでマージ → 仮称 season 2",
       "kind": "act",
-      "entities": ["nishio", "cFQ2f7LRuLYP", "takker", "akinorioyama", "hal sk", "shogoorg"],
-      "tags": ["plurality", "translation-history", "trinity-merge", "season-2"],
+      "entities": [
+        "nishio",
+        "cFQ2f7LRuLYP",
+        "takker",
+        "akinorioyama",
+        "hal sk",
+        "shogoorg"
+      ],
+      "tags": [
+        "plurality",
+        "translation-history",
+        "trinity-merge",
+        "season-2"
+      ],
       "refs": [],
-      "cosense_refs": ["Social Hack Day #57", "Trinity Merge"],
+      "cosense_refs": [
+        "Social Hack Day #57",
+        "Trinity Merge"
+      ],
       "verifiability": "internal-only",
       "notes": "英文・華文の両方からの機械翻訳を並列するスタイルは多くの読者にとって読みづらいことが判明。翻訳者側も「原文を確認したい」需要が多く、翻訳だけ Scrapbox に置いてもイマイチ有用ではなかった、という運用学習。"
     },
@@ -125,8 +223,14 @@
       "date": "2024-02-29",
       "event": "season 3 開始(マージなし運用へ方針転換)。並行的な言い換えを増やす方針で AI 解説を積極利用",
       "kind": "decision",
-      "entities": ["nishio"],
-      "tags": ["plurality", "translation-history", "season-3"],
+      "entities": [
+        "nishio"
+      ],
+      "tags": [
+        "plurality",
+        "translation-history",
+        "season-3"
+      ],
       "refs": [],
       "cosense_refs": [],
       "verifiability": "internal-only",
@@ -137,10 +241,20 @@
       "date": "2024-03-04",
       "event": "サイボウズ式ブックスとの出版協力 開始",
       "kind": "decision",
-      "entities": ["tetsuo", "nishio"],
-      "tags": ["plurality", "translation-history", "cybozu", "book"],
+      "entities": [
+        "tetsuo",
+        "nishio"
+      ],
+      "tags": [
+        "plurality",
+        "translation-history",
+        "cybozu",
+        "book"
+      ],
       "refs": [],
-      "cosense_refs": ["サイボウズ式ブックス出版協力"],
+      "cosense_refs": [
+        "サイボウズ式ブックス出版協力"
+      ],
       "verifiability": "internal-only"
     },
     {
@@ -148,8 +262,14 @@
       "date": "2024-03-18",
       "event": "autotrans 停止。main ブランチを歴史確認用に autotrans ブランチへ改名",
       "kind": "act",
-      "entities": ["nishio"],
-      "tags": ["plurality", "translation-history", "autotrans"],
+      "entities": [
+        "nishio"
+      ],
+      "tags": [
+        "plurality",
+        "translation-history",
+        "autotrans"
+      ],
       "refs": [],
       "cosense_refs": [],
       "verifiability": "internal-only"
@@ -159,10 +279,20 @@
       "date": "2024-04-01",
       "event": "翻訳者 山形浩生さんと打ち合わせ、Discord参加",
       "kind": "meeting",
-      "entities": ["山形浩生", "nishio", "hal sk"],
-      "tags": ["plurality", "translation-history"],
+      "entities": [
+        "山形浩生",
+        "nishio",
+        "hal sk"
+      ],
+      "tags": [
+        "plurality",
+        "translation-history"
+      ],
       "refs": [],
-      "cosense_refs": ["議事録2024-04-01", "hirooyamagataさんDiscord参加"],
+      "cosense_refs": [
+        "議事録2024-04-01",
+        "hirooyamagataさんDiscord参加"
+      ],
       "verifiability": "internal-only"
     },
     {
@@ -170,10 +300,19 @@
       "date": "2024-04-02",
       "event": "⿻VecSearchJA リリース(日本語に絞ったベクトル検索)",
       "kind": "release",
-      "entities": ["nishio"],
-      "tags": ["plurality", "translation-history", "search", "japanese"],
+      "entities": [
+        "nishio"
+      ],
+      "tags": [
+        "plurality",
+        "translation-history",
+        "search",
+        "japanese"
+      ],
       "refs": [],
-      "cosense_refs": ["⿻VecSearchJA"],
+      "cosense_refs": [
+        "⿻VecSearchJA"
+      ],
       "verifiability": "internal-only"
     },
     {
@@ -182,9 +321,15 @@
       "event": "英語版を印刷所に提出",
       "kind": "act",
       "entities": [],
-      "tags": ["plurality", "translation-history", "book"],
+      "tags": [
+        "plurality",
+        "translation-history",
+        "book"
+      ],
       "refs": [],
-      "cosense_refs": ["英語版を印刷所に提出"],
+      "cosense_refs": [
+        "英語版を印刷所に提出"
+      ],
       "verifiability": "internal-only"
     },
     {
@@ -193,9 +338,15 @@
       "event": "完全コミュニティ管理フェーズ 開始",
       "kind": "decision",
       "entities": [],
-      "tags": ["plurality", "translation-history", "community"],
+      "tags": [
+        "plurality",
+        "translation-history",
+        "community"
+      ],
       "refs": [],
-      "cosense_refs": ["完全コミュニティ管理フェーズ開始"],
+      "cosense_refs": [
+        "完全コミュニティ管理フェーズ開始"
+      ],
       "verifiability": "internal-only"
     },
     {
@@ -203,10 +354,20 @@
       "date": "2024-05-20",
       "event": "英語版『⿻ 數位 Plurality: The Future of Collaborative Technology and Democracy』出版",
       "kind": "publication",
-      "entities": ["Audrey Tang", "Glen Weyl"],
-      "tags": ["plurality", "translation-history", "book", "english"],
+      "entities": [
+        "Audrey Tang",
+        "Glen Weyl"
+      ],
+      "tags": [
+        "plurality",
+        "translation-history",
+        "book",
+        "english"
+      ],
       "refs": [],
-      "cosense_refs": ["英語版5/20出版"],
+      "cosense_refs": [
+        "英語版5/20出版"
+      ],
       "verifiability": "internal-only"
     },
     {
@@ -214,10 +375,22 @@
       "date": "2025-05-02",
       "event": "日本語版『PLURALITY 対立を創造に変える、協働テクノロジーと民主主義の未来』発売",
       "kind": "publication",
-      "entities": ["Audrey Tang", "Glen Weyl", "nishio"],
-      "tags": ["plurality", "translation-history", "book", "japanese"],
+      "entities": [
+        "Audrey Tang",
+        "Glen Weyl",
+        "nishio"
+      ],
+      "tags": [
+        "plurality",
+        "translation-history",
+        "book",
+        "japanese"
+      ],
       "refs": [],
-      "cosense_refs": ["Plurality本発売", "サイボウズ式ブックス"],
+      "cosense_refs": [
+        "Plurality本発売",
+        "サイボウズ式ブックス"
+      ],
       "verifiability": "internal-only"
     },
     {
@@ -226,9 +399,17 @@
       "event": "日本語版がオンラインで全文公開",
       "kind": "publication",
       "entities": [],
-      "tags": ["plurality", "translation-history", "book", "japanese", "open-access"],
+      "tags": [
+        "plurality",
+        "translation-history",
+        "book",
+        "japanese",
+        "open-access"
+      ],
       "refs": [],
-      "cosense_refs": ["日本語版がオンラインで全文公開"],
+      "cosense_refs": [
+        "日本語版がオンラインで全文公開"
+      ],
       "verifiability": "internal-only"
     },
     {
@@ -237,10 +418,18 @@
       "date": "2023-01-13/2023-01-15",
       "event": "UC Berkeley で Plurality Conference 開催。tkgshn が参加",
       "kind": "meeting",
-      "entities": ["tkgshn"],
-      "tags": ["plurality", "community-history", "international"],
+      "entities": [
+        "tkgshn"
+      ],
+      "tags": [
+        "plurality",
+        "community-history",
+        "international"
+      ],
       "refs": [],
-      "cosense_refs": ["/tkgshn/UC Berkeleyで行われたPlurality Conferenceに参加した"],
+      "cosense_refs": [
+        "/tkgshn/UC Berkeleyで行われたPlurality Conferenceに参加した"
+      ],
       "verifiability": "internal-only",
       "notes": "ISO 8601 interval notation の multi-day テスト(3日間)"
     },
@@ -249,9 +438,20 @@
       "date": "2023-04-04",
       "event": "鈴木健×東浩紀(+清水亮+安達真)「なめらかな一般意志は可能か——『なめらかな社会とその敵』vs『一般意志2.0』」(ゲンロン)",
       "kind": "meeting",
-      "entities": ["鈴木健", "東浩紀", "清水亮", "安達真"],
-      "tags": ["plurality", "community-history", "namerakana-society"],
-      "refs": ["https://shirasu.io/t/genron/c/genron/p/20230404"],
+      "entities": [
+        "鈴木健",
+        "東浩紀",
+        "清水亮",
+        "安達真"
+      ],
+      "tags": [
+        "plurality",
+        "community-history",
+        "namerakana-society"
+      ],
+      "refs": [
+        "https://shirasu.io/t/genron/c/genron/p/20230404"
+      ],
       "cosense_refs": [],
       "verifiability": "external",
       "notes": "鈴木健が RxC に言及した記憶として残る。後の なめ敵×Plurality 接続の伏線"
@@ -261,10 +461,23 @@
       "date": "2023-05-13",
       "event": "Audrey Tang の真鶴視察旅行(hal sk, akinorioyama, nishio が同行)",
       "kind": "meeting",
-      "entities": ["Audrey Tang", "hal sk", "akinorioyama", "nishio", "青野慶久"],
-      "tags": ["plurality", "community-history", "cybozu", "manazuru"],
+      "entities": [
+        "Audrey Tang",
+        "hal sk",
+        "akinorioyama",
+        "nishio",
+        "青野慶久"
+      ],
+      "tags": [
+        "plurality",
+        "community-history",
+        "cybozu",
+        "manazuru"
+      ],
       "refs": [],
-      "cosense_refs": ["/nishio/真鶴2023-05-13"],
+      "cosense_refs": [
+        "/nishio/真鶴2023-05-13"
+      ],
       "verifiability": "internal-only",
       "notes": "この記事に青野慶久が反応したところからサイボウズとしての関わりが始まった"
     },
@@ -274,9 +487,15 @@
       "event": "Plurality Tokyo Salon @気流舎",
       "kind": "meeting",
       "entities": [],
-      "tags": ["plurality", "community-history", "salon"],
+      "tags": [
+        "plurality",
+        "community-history",
+        "salon"
+      ],
       "refs": [],
-      "cosense_refs": ["/nishio/Plurality Tokyo Salon 2023-07-08"],
+      "cosense_refs": [
+        "/nishio/Plurality Tokyo Salon 2023-07-08"
+      ],
       "verifiability": "internal-only"
     },
     {
@@ -284,10 +503,22 @@
       "date": "2023-07-12",
       "event": "なめ敵会(SmartNews)。鈴木健と『なめらかな社会とその敵』ファンが顔を合わせて開催。「なめ敵の英語圏発信が必要」という方向性が形成される",
       "kind": "meeting",
-      "entities": ["鈴木健", "tkgshn", "hirotaiyohamada", "nishio"],
-      "tags": ["plurality", "community-history", "namerakana-society"],
+      "entities": [
+        "鈴木健",
+        "tkgshn",
+        "hirotaiyohamada",
+        "nishio"
+      ],
+      "tags": [
+        "plurality",
+        "community-history",
+        "namerakana-society"
+      ],
       "refs": [],
-      "cosense_refs": ["/nishio/なめ敵会", "/nishio/tkgshnの鈴木健批判と和解"],
+      "cosense_refs": [
+        "/nishio/なめ敵会",
+        "/nishio/tkgshnの鈴木健批判と和解"
+      ],
       "verifiability": "internal-only"
     },
     {
@@ -295,10 +526,21 @@
       "date": "2023-10-29",
       "event": "なめら会議2 開催。濱田太陽 講演「なめ敵とPluralityについて」。鈴木健「Pluralityには家族的類似性を感じる」",
       "kind": "meeting",
-      "entities": ["hirotaiyohamada", "鈴木健"],
-      "tags": ["plurality", "community-history", "namerakana-society", "compare"],
+      "entities": [
+        "hirotaiyohamada",
+        "鈴木健"
+      ],
+      "tags": [
+        "plurality",
+        "community-history",
+        "namerakana-society",
+        "compare"
+      ],
       "refs": [],
-      "cosense_refs": ["/nishio/なめら会議2", "/hirotaiyohamada/イベント資料『多元的技術 なめ敵とPluralityについて』"],
+      "cosense_refs": [
+        "/nishio/なめら会議2",
+        "/hirotaiyohamada/イベント資料『多元的技術 なめ敵とPluralityについて』"
+      ],
       "verifiability": "internal-only",
       "notes": "なめ敵 vs Plurality の比較が本格的に始まる"
     },
@@ -307,10 +549,19 @@
       "date": "2023-12-12",
       "event": "Pluralityとサイボウズ。「サイボウズの理想と同じ方向性なので協力していけるのでは」と話す",
       "kind": "meeting",
-      "entities": ["nishio", "青野慶久"],
-      "tags": ["plurality", "community-history", "cybozu"],
+      "entities": [
+        "nishio",
+        "青野慶久"
+      ],
+      "tags": [
+        "plurality",
+        "community-history",
+        "cybozu"
+      ],
       "refs": [],
-      "cosense_refs": ["/nishio/Pluralityとサイボウズ"],
+      "cosense_refs": [
+        "/nishio/Pluralityとサイボウズ"
+      ],
       "verifiability": "internal-only"
     },
     {
@@ -318,10 +569,24 @@
       "date": "2024-01-03",
       "event": "Glen in Japan 開催(運営: hal sk, tkgshn)。nishio LT「Words as Public Goods」、blu3mo LT も発表",
       "kind": "meeting",
-      "entities": ["Glen Weyl", "hal sk", "tkgshn", "nishio", "blu3mo"],
-      "tags": ["plurality", "community-history", "international"],
+      "entities": [
+        "Glen Weyl",
+        "hal sk",
+        "tkgshn",
+        "nishio",
+        "blu3mo"
+      ],
+      "tags": [
+        "plurality",
+        "community-history",
+        "international"
+      ],
       "refs": [],
-      "cosense_refs": ["Glen in Japan", "/tkgshn/GleninJapan 自分的振り返り", "/nishio/Words as Public Goods"],
+      "cosense_refs": [
+        "Glen in Japan",
+        "/tkgshn/GleninJapan 自分的振り返り",
+        "/nishio/Words as Public Goods"
+      ],
       "verifiability": "internal-only"
     },
     {
@@ -329,10 +594,18 @@
       "date": "2024-01-13",
       "event": "なめら会議3 開催。Funding the Commons Tokyo のアナウンスもされる",
       "kind": "meeting",
-      "entities": ["nishio"],
-      "tags": ["plurality", "community-history", "namerakana-society"],
+      "entities": [
+        "nishio"
+      ],
+      "tags": [
+        "plurality",
+        "community-history",
+        "namerakana-society"
+      ],
       "refs": [],
-      "cosense_refs": ["/nishio/なめら会議3"],
+      "cosense_refs": [
+        "/nishio/なめら会議3"
+      ],
       "verifiability": "internal-only"
     },
     {
@@ -340,10 +613,19 @@
       "date": "2024-04-26",
       "event": "Plurality勉強会 @サイボウズ",
       "kind": "meeting",
-      "entities": ["nishio"],
-      "tags": ["plurality", "community-history", "cybozu", "study-group"],
+      "entities": [
+        "nishio"
+      ],
+      "tags": [
+        "plurality",
+        "community-history",
+        "cybozu",
+        "study-group"
+      ],
       "refs": [],
-      "cosense_refs": ["Plurality勉強会2024-04-26@サイボウズ"],
+      "cosense_refs": [
+        "Plurality勉強会2024-04-26@サイボウズ"
+      ],
       "verifiability": "internal-only"
     },
     {
@@ -351,10 +633,20 @@
       "date": "2024-07-22",
       "event": "サイボウズと語ろう Plurality 多元性の実践と期待(濱田太陽, nishio, hal sk)",
       "kind": "meeting",
-      "entities": ["hirotaiyohamada", "nishio", "hal sk"],
-      "tags": ["plurality", "community-history", "cybozu"],
+      "entities": [
+        "hirotaiyohamada",
+        "nishio",
+        "hal sk"
+      ],
+      "tags": [
+        "plurality",
+        "community-history",
+        "cybozu"
+      ],
       "refs": [],
-      "cosense_refs": ["サイボウズと語ろうPlurality 多元性の実践と期待"],
+      "cosense_refs": [
+        "サイボウズと語ろうPlurality 多元性の実践と期待"
+      ],
       "verifiability": "internal-only"
     },
     {
@@ -362,10 +654,33 @@
       "date": "2024-07-24/2024-07-25",
       "event": "Funding the Commons Tokyo 2024 開催(2日間)",
       "kind": "meeting",
-      "entities": ["Audrey Tang", "Glen Weyl", "鈴木健", "林篤志", "平将明", "tkgshn", "tasaka", "hirotaiyohamada", "hal sk", "nishio"],
-      "tags": ["plurality", "community-history", "international", "funding-the-commons"],
-      "refs": ["https://note.com/hirotaiyohamada/n/nc81587ae258c"],
-      "cosense_refs": ["Funding the Commons Tokyo 2024", "/nishio/小池百合子@FtCTokyo", "/nishio/Plurality in Japan(日本語)", "/nishio/Designing for Plurality"],
+      "entities": [
+        "Audrey Tang",
+        "Glen Weyl",
+        "鈴木健",
+        "林篤志",
+        "平将明",
+        "tkgshn",
+        "tasaka",
+        "hirotaiyohamada",
+        "hal sk",
+        "nishio"
+      ],
+      "tags": [
+        "plurality",
+        "community-history",
+        "international",
+        "funding-the-commons"
+      ],
+      "refs": [
+        "https://note.com/hirotaiyohamada/n/nc81587ae258c"
+      ],
+      "cosense_refs": [
+        "Funding the Commons Tokyo 2024",
+        "/nishio/小池百合子@FtCTokyo",
+        "/nishio/Plurality in Japan(日本語)",
+        "/nishio/Designing for Plurality"
+      ],
       "verifiability": "external",
       "notes": "ISO 8601 interval notation の multi-day テスト(2日間)。小池百合子(都知事)登壇、安野たかひろも参加"
     },
@@ -374,10 +689,23 @@
       "date": "2025-02-25",
       "event": "Plurality Tokyo Namerakaigi 開催(tkgshn, 鈴木健, hirotaiyohamada, 守慎哉, nishio, takahiroanno)",
       "kind": "meeting",
-      "entities": ["tkgshn", "鈴木健", "hirotaiyohamada", "守慎哉", "nishio", "takahiroanno"],
-      "tags": ["plurality", "community-history", "namerakana-society"],
+      "entities": [
+        "tkgshn",
+        "鈴木健",
+        "hirotaiyohamada",
+        "守慎哉",
+        "nishio",
+        "takahiroanno"
+      ],
+      "tags": [
+        "plurality",
+        "community-history",
+        "namerakana-society"
+      ],
       "refs": [],
-      "cosense_refs": ["Plurality Tokyo Namerakaigi 2025-02"],
+      "cosense_refs": [
+        "Plurality Tokyo Namerakaigi 2025-02"
+      ],
       "verifiability": "internal-only"
     },
     {
@@ -385,10 +713,29 @@
       "date": "2025-05-06/2025-05-13",
       "event": "Tokyo Plurality Week 2025 開催(8日間, 9つ以上のサブイベント)。Plurality 本発売を記念して Audrey Tang, Glen Weyl らが来日",
       "kind": "meeting",
-      "entities": ["Audrey Tang", "Glen Weyl", "青野慶久", "小川淳也", "松尾豊", "上野山勝也", "nishio"],
-      "tags": ["plurality", "community-history", "international", "tokyo-plurality-week"],
+      "entities": [
+        "Audrey Tang",
+        "Glen Weyl",
+        "青野慶久",
+        "小川淳也",
+        "松尾豊",
+        "上野山勝也",
+        "nishio"
+      ],
+      "tags": [
+        "plurality",
+        "community-history",
+        "international",
+        "tokyo-plurality-week"
+      ],
       "refs": [],
-      "cosense_refs": ["20250506東大AI研究会特別講演会", "Plurality Tokyo Namerakaigi #2", "蔦屋書店PLURALITY刊行記念トークイベント", "デジタル民主主義の未来(オードリータン/松尾豊/上野山勝也)", "Tokyo Plurality Week 2025"],
+      "cosense_refs": [
+        "20250506東大AI研究会特別講演会",
+        "Plurality Tokyo Namerakaigi #2",
+        "蔦屋書店PLURALITY刊行記念トークイベント",
+        "デジタル民主主義の未来(オードリータン/松尾豊/上野山勝也)",
+        "Tokyo Plurality Week 2025"
+      ],
       "verifiability": "internal-only",
       "notes": "ISO 8601 interval notation の multi-day テスト(8日間で多数サブイベント)。本パイロットでは1つのDotにまとめたが、サブイベント単位に分割するか、container-Dot+sub-Dot 階層を導入するかは未決(Q13関連)"
     },
@@ -397,11 +744,185 @@
       "date": "2025-11-29",
       "event": "Code for Japan Summit 2025(hal sk, 鈴木健, nishio)",
       "kind": "meeting",
-      "entities": ["hal sk", "鈴木健", "nishio"],
-      "tags": ["plurality", "community-history", "civic-tech"],
+      "entities": [
+        "hal sk",
+        "鈴木健",
+        "nishio"
+      ],
+      "tags": [
+        "plurality",
+        "community-history",
+        "civic-tech"
+      ],
       "refs": [],
-      "cosense_refs": ["Code for Japan Summit 2025"],
+      "cosense_refs": [
+        "Code for Japan Summit 2025"
+      ],
       "verifiability": "internal-only"
+    },
+    {
+      "id": "2002-genome-visualization-mitou-youth",
+      "date": "2002-11/2003-03",
+      "event": "未踏ユース事業で「ゲノム丸ごと可視化」（4次元グラフ・等角投影によるゲノム配列の可視化）を研究",
+      "kind": "research",
+      "entities": [
+        "IPA未踏ユース",
+        "金原研究室"
+      ],
+      "tags": [
+        "highdim",
+        "genome-visualization",
+        "mitou-youth",
+        "research",
+        "profile"
+      ],
+      "refs": [
+        "http://www.jsbi.org/journal/GIW02/GIW02P099.pdf",
+        "http://kanaya.aist-nara.ac.jp/~hiroka-n/prosym2003_1.pdf",
+        "http://www.ipa.go.jp/SPC/report/02fy-pro/report/1302/paper.pdf"
+      ],
+      "cosense_refs": [],
+      "verifiability": "external",
+      "notes": "スーパークリエータ認定(2003-07)につながった研究。対象は『ゲノム配列』。後続の球面SOMによる『遺伝子発現データ』可視化とは対象が異なる別研究（story-joints-hide-claims 実証：highdim Story の <li> はこの前期研究を落としている）。"
+    },
+    {
+      "id": "2003-super-creator-certification",
+      "date": "2003-07",
+      "event": "IPA未踏ユース事業でスーパークリエータに認定",
+      "kind": "decision",
+      "entities": [
+        "IPA未踏ユース"
+      ],
+      "tags": [
+        "highdim",
+        "mitou-youth",
+        "credential",
+        "profile"
+      ],
+      "refs": [
+        "http://www.ipa.go.jp/NBP/14nendo/14youth/index.files/SCichiran.pdf",
+        "https://web.archive.org/web/2023/https://www.ipa.go.jp/jinzai/esp/mitoipedia/spc/year/2002ysc.html"
+      ],
+      "cosense_refs": [],
+      "verifiability": "external",
+      "notes": "ゲノム可視化研究(2002-2003)に対する認定＝credential。研究そのものとは別の事実として分離(cf. 24歳博士の分割)。どの facet Story にも属さない near-orphan Dot。"
+    },
+    {
+      "id": "2003-2006-spherical-som-gene-expression",
+      "date": "2003-04/2006-03",
+      "event": "大学院で球面SOM（自己組織化マップ）により高次元の遺伝子発現データを低次元へ射影して可視化する研究（博士論文テーマ）",
+      "kind": "research",
+      "entities": [
+        "NAIST",
+        "金原研究室"
+      ],
+      "tags": [
+        "highdim",
+        "spherical-som",
+        "gene-expression",
+        "research",
+        "profile"
+      ],
+      "refs": [
+        "WSOM2003 oral: Nishio et al. (2003) Visualization of gene classification based on expression profile using BL-SOM. Proc. of WSOM03, 101-106.",
+        "RECOMB2004 poster: Nishio et al. Suitability of Spherical SOM for Gene Expression Analysis. Proc. of RECOMB2004.",
+        "SCI2004 oral: Nishio et al. Gene classification Based on Expression Profile using BL-SOM ... Spherical and Plain SOM by N-measure. SCI2004.",
+        "WSOM2005 poster: Spherical SOM with arbitrary number of neurons and measure of suitability.",
+        "情報処理学会論文誌「数理モデル化と応用」: Spherical SOM and arrangement of neurons using helix on sphere."
+      ],
+      "cosense_refs": [],
+      "verifiability": "external",
+      "notes": "BL-SOM(平面, WSOM2003)から球面SOM(RECOMB2004/SCI2004/WSOM2005/情報処理学会論文誌)へ発展。対象は『遺伝子発現データ』で、前期の『ゲノム配列』可視化とは別研究。"
+    },
+    {
+      "id": "2006-03-phd-science",
+      "date": "2006-03",
+      "event": "奈良先端科学技術大学院大学（NAIST）で博士（理学）を取得（24歳）",
+      "kind": "education",
+      "entities": [
+        "NAIST"
+      ],
+      "tags": [
+        "highdim",
+        "credential",
+        "education",
+        "profile"
+      ],
+      "refs": [
+        "http://nhiro.org/static/doctor_e.pdf"
+      ],
+      "cosense_refs": [],
+      "verifiability": "external",
+      "notes": "学位＝credential。球面SOM研究(2003-2006)の成果に基づくが、学位取得そのものは研究とは別の事実として分離(cf. 24歳博士の分割)。"
+    },
+    {
+      "id": "2014-05-word2vec-book",
+      "date": "2014-05",
+      "event": "『word2vecによる自然言語処理』を刊行（オライリー・ジャパン）",
+      "kind": "publication",
+      "entities": [
+        "オライリー・ジャパン"
+      ],
+      "tags": [
+        "highdim",
+        "book",
+        "nlp",
+        "word2vec",
+        "profile",
+        "intellectual-production"
+      ],
+      "refs": [
+        "https://www.oreilly.co.jp/books/9784873116839/"
+      ],
+      "cosense_refs": [],
+      "verifiability": "external",
+      "notes": "高次元ベクトル可視化の対象が『分子(遺伝子発現)』から『言葉』へ移った縦糸の結節点。profile / intellectual-production / highdim が同じ刊行を指すため1 Dot＋Story別captionに畳む(検証済み例)。"
+    },
+    {
+      "id": "2024-05-bunkacho-paccomment-broadlistening",
+      "date": "2024-05",
+      "event": "Talk to the City で文化庁「AIと著作権」パブリックコメントを埋め込みベクトル化し2次元に可視化する実験を実施",
+      "kind": "act",
+      "entities": [
+        "Talk to the City",
+        "文化庁"
+      ],
+      "tags": [
+        "highdim",
+        "broadlistening",
+        "talk-to-the-city",
+        "experiment"
+      ],
+      "refs": [],
+      "cosense_refs": [
+        "Talk to the City",
+        "AIと著作権に関するパブリックコメント"
+      ],
+      "verifiability": "internal-only",
+      "notes": "対象が『言葉』から『人々の意見・声』へ移行。Talk to the City 自体はnishioの作ではなく、それを用いた実験（過剰帰属を避ける, cf. IGF京都の教訓）。"
+    },
+    {
+      "id": "2024-kouchou-ai-development",
+      "date": "2024/..",
+      "event": "デジタル民主主義2030の一員として広聴AI（kouchou-ai）の開発に携わる。大量の意見をベクトル化し次元圧縮・クラスタリングして『意見の地図』として可視化",
+      "kind": "act",
+      "entities": [
+        "デジタル民主主義2030",
+        "広聴AI"
+      ],
+      "tags": [
+        "highdim",
+        "broadlistening",
+        "kouchou-ai",
+        "digital-democracy"
+      ],
+      "refs": [
+        "https://github.com/digitaldemocracy2030/kouchou-ai",
+        "https://dd2030.org/kouchou-ai"
+      ],
+      "cosense_refs": [],
+      "verifiability": "external",
+      "notes": "kouchou-aiはデジタル民主主義2030のOSS。nishioは開発参加（単独開発ではない）。高次元ベクトル可視化の縦糸がブロードリスニングの中核技術として結実。"
     }
   ]
 }

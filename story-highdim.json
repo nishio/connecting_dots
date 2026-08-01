@@ -1,0 +1,39 @@
+{
+  "$comment": "Facet Story『高次元ベクトルの可視化』(自己紹介の縦糸)。dots.json の Dot id を参照。captions は各 Dot をこの Story の角度から繋ぐ繋ぎ目(story-joints-hide-claims: 繋ぎ目は解釈だが検証済み事実に立脚)。",
+  "schema_version": "0.1-pilot",
+  "id": "highdim",
+  "title": "高次元ベクトルの可視化",
+  "language": "ja",
+  "audience": ["技術者", "研究者", "一般"],
+  "purpose": "西尾を貫く技術的な縦糸『高次元ベクトルの可視化』を、遺伝子発現→言葉→人々の意見と対象を変えながら20年つなぐ一本の線として示す",
+  "author": "nishio",
+  "intro": "何千次元もあるデータを人間が眺められる2次元・3次元の地図へ射影する。この一本の技術の縦糸は、遺伝子発現データ（博士課程）→ 単語（word2vec）→ 人々の意見（ブロードリスニング）と、対象を変えながら20年以上ずっと私の仕事の中心にあり続けている。散布図の縦軸・横軸そのものに意味はなく、点の位置が表すのは『ベクトル同士の相対的な近さ』だけ——この骨格は対象が分子から言葉、言葉から声へ変わっても不変。",
+  "dots": [
+    "2002-genome-visualization-mitou-youth",
+    "2003-2006-spherical-som-gene-expression",
+    "2006-03-phd-science",
+    "2014-05-word2vec-book",
+    "2024-05-bunkacho-paccomment-broadlistening",
+    "2024-kouchou-ai-development"
+  ],
+  "captions": {
+    "2002-genome-visualization-mitou-youth": "縦糸の始点。まず『ゲノム配列』を4次元グラフ・等角投影で地図にした。可視化の対象は分子だった。",
+    "2003-2006-spherical-som-gene-expression": "対象は同じ生命科学でも『遺伝子発現データ』へ。球面SOMで数千次元を球面上の地図に落とす——似たものが近くに集まる地図を人間が読む、という後年まで変わらぬ骨格がここで固まった。",
+    "2006-03-phd-science": "この研究で博士（理学）を取得（24歳）。ただし学位はアカデミアに残るためではなく、以後はソフトウェアエンジニアへ——それでも『高次元データを地図にする』発想は対象を変えて何度も戻ってくる。",
+    "2014-05-word2vec-book": "可視化の対象が『分子』から『言葉』へ移る。単語を高次元ベクトルとして表し、意味の近さを距離で扱う技術を一冊にまとめた。",
+    "2024-05-bunkacho-paccomment-broadlistening": "対象が『言葉』から『人々の意見・声』へ。パブコメを埋め込みベクトル化して2次元へ圧縮し、意見のクラスタとして可視化した。",
+    "2024-kouchou-ai-development": "20年前に遺伝子発現データでやっていた『高次元→地図』が、ブロードリスニング（広聴AI）の中核技術として全く別の応用領域に戻ってきた。"
+  },
+  "sections": [
+    {
+      "title": "大学院：分子を地図にする (2002–2006)",
+      "from": "2002-genome-visualization-mitou-youth",
+      "to": "2006-03-phd-science"
+    },
+    {
+      "title": "対象を変えて戻ってくる：言葉、そして声へ (2014–現在)",
+      "from": "2014-05-word2vec-book",
+      "to": "2024-kouchou-ai-development"
+    }
+  ]
+}

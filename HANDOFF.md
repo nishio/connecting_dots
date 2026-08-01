@@ -1,12 +1,19 @@
-# ConnectingDots — 引き継ぎ文書（2026-08-01）
+# ConnectingDots — 引き継ぎ文書（2026-08-01 更新）
 
 新しいコンテキストで作業を再開するための現在地メモ。設計の正典は別リポジトリ
 `/Users/nishio/connecting-dot-design`（LLM Wiki、非git）。本 repo は実装（git）。
 
 ## 現在地（TL;DR）
-- 設計は closed。`build.py` v0（pilot データ35 Dot）が end-to-end で動作し commit 済み（baseline `bbf29eb`）。
-- **次の作業＝自己紹介 Dot の本移行**：nhiro.org の手書き facet Story 5本＋2月旧プロトタイプの Dot を、**atomize（束を atomic fact に分解）→ fact-check（一次ソースで検証）→ 新スキーマで Dot 化**する。まだ着手していない。
-- 進め方は「まず1テーマ（mentoring か highdim）で通してやり方を固め、残りに広げる」で合意。
+- 設計は closed。`build.py` v0 が end-to-end で動作。
+- **本移行 第1テーマ = highdim 完了**（2026-08-01）。dots.json に highdim Dot 7件を追加（35→**42 Dot**）、`story-highdim.json` 新設、build 動作確認済み。**やり方（3工程）は下記「移行プレイブック」で確立**。
+- **次の作業 = 残りテーマの本移行**：mentoring / broadlistening / intellectual-production / plurality-facet。確立した3工程を繰り返す。一次年表は `entrypoint/docs/history-ja.html` が全テーマ共通で使える。
+
+## 移行プレイブック（highdim で確立、以降のテーマもこれで）
+1. **atomize** — facet Story の `<li>` と旧プロトタイプ Dot（`archive/prototype-2026-02/data/dots/`）を atomic fact に分解。判定「同じ atomic イベントか別の事実か」。**credential（学位・認定）は研究とは別 fact に分割**（cf. 24歳博士）。
+2. **fact-check** — 一次ソースは西尾自身の `/Users/nishio/entrypoint/docs/history-ja.html`（年表＋発表歴の一次リスト）。facet Story の文言を鵜呑みにしない（繋ぎ目の焼き込み誤りを探す）。
+3. **Dot化** — 新スキーマ（0.1-pilot）で dots.json の単一フラットプールへ追記。共有 Dot は1 Dot＋Story別 caption に畳む。`story-<theme>.json` を作り `python3 build.py` で確認。
+- **属性の注意**: 過剰帰属を避ける（例: Talk to the City は nishio 作でなく「用いた実験」、kouchou-ai は dd2030 の一員として開発参加）。cf. IGF京都の教訓。
+- **孤児 OK**: どの Story にも属さない Dot（例: スーパークリエータ認定）はフラットプールに置いたままで一級市民（orphan-dot-discovery）。
 
 ## リポジトリ / 置き場所
 - **`/Users/nishio/connecting_dots/`（本 repo, git）** = 実装＝中央ストア。`build.py` / `dots.json`（Plurality pilot 35件）/ `story-*.json` 2本 / `archive/prototype-2026-02/`（2月の旧プロトタイプ＝自己紹介 Dot の移行元）。`build/` は生成物（gitignore）。
