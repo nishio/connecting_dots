@@ -21,8 +21,12 @@ import os
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "build")
-# 本番の canonical は nhiro.org（deploy-topology 決定）。プロトタイプでは sitemap/llms 用に使う。
-BASE_URL = "https://nhiro.org"
+# 本番配信: システム一式は nhiro.org/connecting_dots/ 配下（llms.txt だけは root 規約で /llms.txt）。
+SITE = "https://nhiro.org"
+SUB = "connecting_dots"
+PREFIX = "/" + SUB                # サイト内絶対パスの接頭辞（どの階層のページからでもリンクが壊れない）
+BASE_URL = f"{SITE}/{SUB}"        # canonical（deploy-topology: canonical ホストは nhiro.org）
+SUBOUT = os.path.join(OUT, SUB)   # build/connecting_dots/
 
 CSS = """
 body{font-family:system-ui,-apple-system,'Hiragino Kaku Gothic ProN',sans-serif;max-width:760px;margin:2rem auto;padding:0 1rem;line-height:1.7;color:#1a1a1a}
@@ -42,7 +46,7 @@ def page(title, body):
     return (f"<!DOCTYPE html><html lang='ja'><head><meta charset='utf-8'>"
             f"<meta name='viewport' content='width=device-width,initial-scale=1'>"
             f"<title>{esc(title)}</title><style>{CSS}</style></head><body>"
-            f"<nav><a href='../index.html'>&larr; index</a></nav>{body}</body></html>")
+            f"<nav><a href='{PREFIX}/'>&larr; Connecting Dots System</a></nav>{body}</body></html>")
 
 
 def load():
@@ -74,7 +78,7 @@ def dot_block(d, rev, orphan_note=True):
     verif = d.get("verifiability", "?")
     return (f"<div class='{cls}' id='{esc(d['id'])}'>"
             f"<span class='date'>{esc(d.get('date',''))}</span> "
-            f"<a href='../dots/{esc(d['id'])}.html'>{esc(d.get('event',''))}</a>{onote}"
+            f"<a href='{PREFIX}/dots/{esc(d['id'])}.html'>{esc(d.get('event',''))}</a>{onote}"
             f"<div class='meta'>kind: {esc(d.get('kind','?'))} / verifiability: {esc(verif)}"
             f"{' / entities: '+esc('、'.join(d.get('entities',[]))) if d.get('entities') else ''}</div>"
             f"<div class='tags'>{tags}</div>"
@@ -88,15 +92,15 @@ def _short(url):
 def build():
     dots, stories = load()
     rev = reverse_lookup(dots, stories)
-    os.makedirs(os.path.join(OUT, "dots"), exist_ok=True)
-    os.makedirs(os.path.join(OUT, "stories"), exist_ok=True)
+    os.makedirs(os.path.join(SUBOUT, "dots"), exist_ok=True)
+    os.makedirs(os.path.join(SUBOUT, "stories"), exist_ok=True)
     urls = []
 
     # 1) per-Dot ページ（孤児含む全 Dot に安定 URL）
     for did, d in dots.items():
         instories = rev[did]
         story_links = "、".join(
-            f"<a href='../stories/{esc(sid)}.html'>{esc(_story_title(stories,sid))}</a>" for sid in instories
+            f"<a href='{PREFIX}/stories/{esc(sid)}.html'>{esc(_story_title(stories,sid))}</a>" for sid in instories
         ) or "（どの Story にも未収録＝孤児 Dot）"
         body = (f"<h1>{esc(d.get('event',''))}</h1>"
                 f"<p class='date'>{esc(d.get('date',''))} ・ kind: {esc(d.get('kind','?'))} ・ "
@@ -109,13 +113,13 @@ def build():
                 + "".join(f"<a href='https://scrapbox.io/nishio/{esc(c)}'>[{esc(c)}]</a><br>" for c in d.get("cosense_refs", []))
                 + (f"" if (d.get("refs") or d.get("cosense_refs")) else "—")
                 + f"</p><h2>含まれる Story（逆引き・派生）</h2><p>{story_links}</p>")
-        open(os.path.join(OUT, "dots", did + ".html"), "w").write(page(d.get("event", did), body))
+        open(os.path.join(SUBOUT, "dots", did + ".html"), "w").write(page(d.get("event", did), body))
         urls.append(f"{BASE_URL}/dots/{did}.html")
 
     # 2) Story ページ
     for s in stories:
         body = _render_story(s, dots, rev)
-        open(os.path.join(OUT, "stories", s["id"] + ".html"), "w").write(page(s["title"], body))
+        open(os.path.join(SUBOUT, "stories", s["id"] + ".html"), "w").write(page(s["title"], body))
         urls.append(f"{BASE_URL}/stories/{s['id']}.html")
 
     # 3) all-dots（絞り込みなし・時系列・孤児明示）
@@ -124,7 +128,7 @@ def build():
     body = (f"<h1>All Dots</h1><p class='meta'>全 {len(dots)} Dot（絞り込みなし）。"
             f"うち孤児（どの Story にも未収録）{n_orphan} 件。これらも一級で発見可能。</p>"
             + "".join(dot_block(d, rev) for d in ordered))
-    open(os.path.join(OUT, "all-dots.html"), "w").write(page("All Dots", body))
+    open(os.path.join(SUBOUT, "all-dots.html"), "w").write(page("All Dots", body))
     urls.append(f"{BASE_URL}/all-dots.html")
 
     # 4) dots.json（★AIクロールの一次面：フラット全 Dot ＋ 派生 in_stories ＋ url）
@@ -137,11 +141,11 @@ def build():
         "stories": [{"id": s["id"], "title": s["title"], "audience": s.get("audience"),
                      "dots": s["dots"], "url": f"{BASE_URL}/stories/{s['id']}.html"} for s in stories],
     }
-    open(os.path.join(OUT, "dots.json"), "w").write(json.dumps(manifest, ensure_ascii=False, indent=2))
+    open(os.path.join(SUBOUT, "dots.json"), "w").write(json.dumps(manifest, ensure_ascii=False, indent=2))
 
     # 5) Connecting Dots System の index（ja / en）/ sitemap / llms.txt
     story_items = "".join(
-        f"<li><a href='stories/{esc(s['id'])}.html'>{esc(s['title'])}</a> "
+        f"<li><a href='{PREFIX}/stories/{esc(s['id'])}.html'>{esc(s['title'])}</a> "
         f"<span class='meta'>({len(s['dots'])} dots / {esc('、'.join(s.get('audience', [])))})</span></li>"
         for s in stories)
 
@@ -161,23 +165,23 @@ def build():
     ja_body = (
         f"<h1>Connecting Dots System</h1><p>{desc_ja}</p>"
         f"<h2>Stories</h2><ul>{story_items}</ul>"
-        f"<p class='meta'>読み物として整えた版は<a href='{BASE_URL}/ja.html'>西尾のホームページ</a>（各テーマ）にあります。</p>"
+        f"<p class='meta'>読み物として整えた版は<a href='{SITE}/ja.html'>西尾のホームページ</a>（各テーマ）にあります。</p>"
         f"<h2>全 Dot</h2><ul>"
-        f"<li><a href='all-dots.html'>All Dots</a>（{len(dots)} 件・孤児含む）</li>"
-        f"<li><a href='dots.json'>dots.json</a>（出典付きの機械可読データ）</li></ul>"
+        f"<li><a href='{PREFIX}/all-dots.html'>All Dots</a>（{len(dots)} 件・孤児含む）</li>"
+        f"<li><a href='{PREFIX}/dots.json'>dots.json</a>（出典付きの機械可読データ）</li></ul>"
         f"<h2>ソース</h2><ul><li><a href='https://github.com/nishio/connecting_dots'>github.com/nishio/connecting_dots</a></li></ul>"
-        f"<h2>機械向け</h2><ul><li><a href='sitemap.xml'>sitemap.xml</a> / <a href='llms.txt'>llms.txt</a></li></ul>"
-        f"<p class='meta'><a href='{BASE_URL}/ja.html'>&larr; 西尾泰和のホームページ</a></p>")
+        f"<h2>機械向け</h2><ul><li><a href='{PREFIX}/sitemap.xml'>sitemap.xml</a> / <a href='/llms.txt'>llms.txt</a></li></ul>"
+        f"<p class='meta'><a href='{SITE}/ja.html'>&larr; 西尾泰和のホームページ</a></p>")
     en_body = (
         f"<h1>Connecting Dots System</h1><p>{desc_en}</p>"
         f"<h2>Stories</h2><ul>{story_items}</ul>"
-        f"<p class='meta'>Story text is in Japanese. English write-ups are on <a href='{BASE_URL}/'>NISHIO's homepage</a>.</p>"
+        f"<p class='meta'>Story text is in Japanese. English write-ups are on <a href='{SITE}/'>NISHIO's homepage</a>.</p>"
         f"<h2>All Dots</h2><ul>"
-        f"<li><a href='all-dots.html'>All Dots</a> ({len(dots)} incl. orphans)</li>"
-        f"<li><a href='dots.json'>dots.json</a> (sourced, machine-readable data)</li></ul>"
+        f"<li><a href='{PREFIX}/all-dots.html'>All Dots</a> ({len(dots)} incl. orphans)</li>"
+        f"<li><a href='{PREFIX}/dots.json'>dots.json</a> (sourced, machine-readable data)</li></ul>"
         f"<h2>Source</h2><ul><li><a href='https://github.com/nishio/connecting_dots'>github.com/nishio/connecting_dots</a></li></ul>"
-        f"<h2>Machine-readable</h2><ul><li><a href='sitemap.xml'>sitemap.xml</a> / <a href='llms.txt'>llms.txt</a></li></ul>"
-        f"<p class='meta'><a href='{BASE_URL}/'>&larr; NISHIO Hirokazu's homepage</a></p>")
+        f"<h2>Machine-readable</h2><ul><li><a href='{PREFIX}/sitemap.xml'>sitemap.xml</a> / <a href='/llms.txt'>llms.txt</a></li></ul>"
+        f"<p class='meta'><a href='{SITE}/'>&larr; NISHIO Hirokazu's homepage</a></p>")
 
     def _landing(lang, title, toggle_href, toggle_label, body):
         return (f"<!DOCTYPE html><html lang='{lang}'><head><meta charset='utf-8'>"
@@ -185,23 +189,23 @@ def build():
                 f"<title>{esc(title)}</title><style>{CSS}</style></head><body>"
                 f"<nav><a href='{toggle_href}'>{esc(toggle_label)}</a></nav>{body}</body></html>")
 
-    open(os.path.join(OUT, "dots.html"), "w").write(
-        _landing("ja", "Connecting Dots System — 西尾泰和", "dots.en.html", "English", ja_body))
-    open(os.path.join(OUT, "dots.en.html"), "w").write(
-        _landing("en", "Connecting Dots System — NISHIO Hirokazu", "dots.html", "日本語", en_body))
-    urls.append(f"{BASE_URL}/dots.html")
-    urls.append(f"{BASE_URL}/dots.en.html")
+    open(os.path.join(SUBOUT, "index.html"), "w").write(
+        _landing("ja", "Connecting Dots System — 西尾泰和", "en.html", "English", ja_body))
+    open(os.path.join(SUBOUT, "en.html"), "w").write(
+        _landing("en", "Connecting Dots System — NISHIO Hirokazu", "index.html", "日本語", en_body))
+    urls.append(f"{BASE_URL}/")
+    urls.append(f"{BASE_URL}/en.html")
 
     sm = "<?xml version='1.0' encoding='UTF-8'?>\n<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>\n"
     sm += "".join(f"  <url><loc>{esc(u)}</loc></url>\n" for u in urls)
     sm += f"  <url><loc>{BASE_URL}/dots.json</loc></url>\n</urlset>\n"
-    open(os.path.join(OUT, "sitemap.xml"), "w").write(sm)
+    open(os.path.join(SUBOUT, "sitemap.xml"), "w").write(sm)
 
-    llms = (f"# nishio ConnectingDots — machine-readable data (Dots & Stories)\n\n"
+    llms = (f"# nishio Connecting Dots System — machine-readable data (Dots & Stories)\n\n"
             f"AI/agents: 一次データは以下。取得してローカルで読む/検索する（サイト側に検索機能は無い）。\n\n"
+            f"- システムの入口: {BASE_URL}/\n"
             f"- 全 Dot データ（受理済み・全件フラット・孤児含む）: {BASE_URL}/dots.json\n"
             f"- 全 Dot の人間向け View: {BASE_URL}/all-dots.html\n"
-            f"- Story 一覧: {BASE_URL}/dots.html\n"
             f"- sitemap: {BASE_URL}/sitemap.xml\n\n"
             f"補足: 候補（未受理）Dot は別ファイル candidates/*.jsonl に置かれる（pilot には未収録）。"
             f"検証状態は各 Dot の verifiability(external|internal-only) と refs に随伴。\n")
@@ -212,7 +216,7 @@ def build():
     print(f"built -> {OUT}")
     print(f"  dots: {len(dots)}  (孤児={n_orphan}, 複数Story共有={shared})")
     print(f"  stories: {len(stories)}  ({', '.join(s['id'] for s in stories)})")
-    print(f"  files: dots.json, all-dots.html, {len(dots)} dot pages, {len(stories)} story pages, sitemap.xml, llms.txt, index.html")
+    print(f"  layout: {SUB}/(index.html, en.html, dots.json, all-dots.html, {len(dots)} dots/, {len(stories)} stories/, sitemap.xml) + /llms.txt")
 
 
 def _story_title(stories, sid):
