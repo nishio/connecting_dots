@@ -12,7 +12,7 @@
 - **ボードゲーム/ガジェット系 Dot 3件追加**（2026-08-01、西尾指定のCosenseソースから）: パスタロジック発売(2020-11)／01VERSE発売(2023-05-12, リメイク)／MUROTO(2010-05, 久池井淳と)。全て孤児（孤児計8件）。現在 **83 Dot / 7 Story**。
 - **公開レビューで Dot を追加/精緻化**（2026-08-01、西尾と対話）。80 Dot 時点。追加: WEB+DB PRESS Vol.60特集(Matz共著)／続・エンジニアの学び方／視点を変えてみよう／Sustainable Brands Tokyo 2026／OSSクエスト(制作関与)。削除: LENCHI(重要度低)。帰属・日付・因果の誤りを多数修正（下記「公開レビューの確定事項」）。
 - **✅ 外向き公開 実施済み**（下記「外向きステップ」）: GitHub public repo ＋ `https://nhiro.org/dots.json` ライブ。
-- **⚠️ 未解決 = 人間向けランディングの命名**: `dots.html`(入口=Story目次+リンク) と `all-dots.html`(全80Dot一覧) が併存して紛らわしい。**案A=1ページ統合(dots.htmlのみ, all-dots廃止)／案B=dots.html(全件)+stories.html(目次)** のどちらか未決。決めてから build.py・配信ファイル・トップリンクを直す。**nhiro.org トップ(ja.html)の入口リンクは命名未確定のため一旦削除済み**（決まったら戻す）。dots.json 等のデータ面は公開継続中。
+- **✅ ランディング命名・URL整理 解決済み（2026-08-01）**: landing を **Connecting Dots System の index** に再定義（西尾個人HP=ja.html とは役割分離、システム自身の入口）。crawl 面一式を **`nhiro.org/connecting_dots/` 配下**へ移設（旧ルート直下 `dots.html`/`dots.json`/`all-dots.html`/`sitemap.xml`/`dots/`/`stories/` は撤去＝404）。入口 `/connecting_dots/`(index.html, ja) ＋ `/connecting_dots/en.html`(en, **index のみ英語化・Dot/Story 本文は日本語のまま**)。内部リンクはサイト内絶対パス（`/connecting_dots/...` と `/llms.txt`）。**ja.html トップに crawl 面への入口リンクは付けない**（機械は `/llms.txt`・sitemap から到達）。旧 Q21(案A/B) は問題ごと消滅。**記録の動機**（忘却で点を失う前に記録）を connecting-dots.md に file back 済み。
 - **プロセス教訓（西尾フィードバック）**: 複数ファイルをまとめて書き換える前に「何をどう変えるか」を**先に列挙して合意**を取ってから着手する。コンテキスト逼迫時ほど焦って書き換えすぎない。
 
 ## 移行プレイブック（highdim で確立、以降のテーマもこれで）
@@ -30,7 +30,7 @@
 ## 確定した設計決定（connecting-dot-design/wiki/ 参照）
 - **flatness-is-view-resolution** — ストアは AI 向けで忠実・自由・フラットでよい。人間が要求する「平坦で理解可能な形」は render 時に View が一つの高度にコミットして与える。**Dot と Story は固定層でなく相対的な役**、Dot粒度は出力の高度が決める。
 - **単一フラットプール** — 自己紹介 Dot と Plurality 史 Dot をドメインで分けず1プール。ドメインは `tags`／Story 所属で回収。可視性（public/private）だけは分ける。
-- **orphan-dot-discovery** — どの Story にも属さない孤児 Dot も一級市民で AI 発見可能に。発見インデックスは Story でなく **Dot コーパス `dots.json`** に張る。クロール面＝**Web 配信された静的成果物**（`dots.json`＋per-Dot URL＋`all-dots.html`＋`sitemap.xml`＋`llms.txt`ルート）。**canonical は nhiro.org**。クライアント検索は作らない（AI が dots.json を取得してローカルで読む）。
+- **orphan-dot-discovery** — どの Story にも属さない孤児 Dot も一級市民で AI 発見可能に。発見インデックスは Story でなく **Dot コーパス `dots.json`** に張る。クロール面＝**Web 配信された静的成果物**。**配置（2026-08-01 確定）**: 一式は `nhiro.org/connecting_dots/` 配下（`dots.json`＋per-Dot URL＋`all-dots.html`＋`sitemap.xml`＋入口 index.html/en.html）、**`llms.txt` のみ root（`/llms.txt`）**で配下を指す。**canonical は nhiro.org/connecting_dots/dots.json**（deploy-topology の「canonical ホスト=nhiro.org」はサイト指定でパス移設と整合）。クライアント検索は作らない（AI が dots.json を取得してローカルで読む）。
 - **status フィールドは持たない** — 候補=別ファイル `candidates/*.jsonl`（Q18 分離スタイル）、受理=`dots.json`。区別は location。昇格＝ファイル間移動。
 - **deploy-topology** — ソースは中央（本 repo）、View は宛先別 federated（自己紹介→nhiro.org / Plurality 史→dd2030）。entrypoint(nhiro.org) は自己紹介 View の配信先＋クロール面ホスト。
 - **story-joints-hide-claims** — Story の繋ぎ目（命名・因果・帰属）は解釈に見えて検証可能な事実主張を紛れ込ませる。全 Dot が真でも繋ぎ目が偽なら Story は偽。→ 繋ぎ目は一次ソースで検証。
@@ -80,17 +80,17 @@ Set B の文言には**繋ぎ目の捏造**が焼き込まれている。移行�
 
 ## 外向きステップ
 - ✅ **GitHub remote 作成 + push 済み**: https://github.com/nishio/connecting_dots （public, origin/main）。
-- ✅ **nhiro.org 実公開 済み（2026-08-01）**: `https://nhiro.org/dots.json` ライブ（HTTP 200, 80 Dot）。per-Dot `/dots/<id>.html`・Story `/stories/<id>.html`・`/all-dots.html`・`/corpus.html`・`/sitemap.xml`・`/llms.txt` も配信。ja.html トップにコーパスへのリンク追加。build の landing は nhiro.org トップと衝突しないよう **`corpus.html`**（index.html でない）。
-- ⬜ **未実施（任意）**: `dots/*.json` per-Dot ソース分割（git 差分性向上）。現状ソースは単一 `dots.json`。
+- ✅ **nhiro.org 実公開 済み（2026-08-01）**: 入口 `https://nhiro.org/connecting_dots/`（index.html, ja）＋ `/connecting_dots/en.html`（en）。`/connecting_dots/dots.json`（HTTP 200, 83 Dot）・per-Dot `/connecting_dots/dots/<id>.html`・Story `/connecting_dots/stories/<id>.html`・`/connecting_dots/all-dots.html`・`/connecting_dots/sitemap.xml`、および root `/llms.txt` を配信。旧ルート直下配置（`/dots.html` 等）は撤去済み＝404。
+- ⬜ **未実施（任意）**: `dots/*.json` per-Dot ソース分割（git 差分性向上）／英語データ翻訳（Dot/Story 本文、保存形式の設計判断が要る）。現状ソースは単一 `dots.json`。
 
 ### 再配信手順（dots.json / story を編集したら）
 ```
 cd /Users/nishio/connecting_dots
 rm -rf build && python3 build.py            # ★buildは掃除して作り直す(削除/改名Dotのstale HTML除去)
 D=/Users/nishio/entrypoint/docs
-rm -rf $D/dots $D/stories
-cp build/dots.json build/all-dots.html build/corpus.html build/sitemap.xml build/llms.txt $D/
-cp -r build/dots $D/dots ; cp -r build/stories $D/stories
+rm -rf $D/connecting_dots
+cp -r build/connecting_dots $D/connecting_dots   # システム一式は /connecting_dots/ 配下
+cp build/llms.txt $D/llms.txt                     # llms.txt だけ root
 git -C /Users/nishio/connecting_dots commit -am "..." && git -C /Users/nishio/connecting_dots push
 git -C /Users/nishio/entrypoint add docs && git -C /Users/nishio/entrypoint commit -m "redeploy dots" && git -C /Users/nishio/entrypoint push
 ```
