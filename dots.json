@@ -970,7 +970,7 @@
       "refs": [],
       "cosense_refs": [],
       "verifiability": "internal-only",
-      "notes": "『コーディングを支える技術』(2013)の直接の源流。同時期の球面SOM研究(Dot=2003-2006-spherical-som-gene-expression)とは別の事実（研究 vs 後輩指導、cf. 24歳博士の分割）。教える側への移行の原点。"
+      "notes": "『コーディングを支える技術』(2013)につながったと西尾は述べる（この因果は本人の主張で公開ソースは無い）。ただし同書が複数のプログラミング言語の使い方を比較する内容であることは書籍説明で確認可能。同時期の球面SOM研究(Dot=2003-2006-spherical-som-gene-expression)とは別の事実（研究 vs 後輩指導）。教える側への移行の原点。"
     },
     {
       "id": "2004-2006-monka-it-school-tutor",
@@ -1078,7 +1078,7 @@
       ],
       "cosense_refs": [],
       "verifiability": "external",
-      "notes": "『エンジニアの知的生産術』(2018)の原型。教える実践と『学び方』研究が表裏一体であることの結節点。"
+      "notes": "『エンジニアの学び方』(WEB+DB PRESS Vol.80 特別企画)が好評で連載化し、それが書籍『エンジニアの知的生産術』(2018)の企画につながった（西尾談）。教える実践と『学び方』研究が表裏一体であることの結節点。"
     },
     {
       "id": "2015-2017-tokyo-metropolitan-univ-lecturer",
@@ -1267,7 +1267,7 @@
       ],
       "cosense_refs": [],
       "verifiability": "external",
-      "notes": "中国語版・韓国語版も刊行。大学院期の『比較プログラミング言語学』(Dot=2003-2006-teaching-juniors-comparative-proglang)を源流とする。"
+      "notes": "中国語版・韓国語版も刊行。複数のプログラミング言語の使い方を比較する内容。大学院期の『比較プログラミング言語学』の後輩指導を源流とする（Dot=2003-2006-teaching-juniors-comparative-proglang、因果は西尾の主張）。"
     },
     {
       "id": "2017-scrapbox-external-brain",
@@ -1310,7 +1310,7 @@
         "エンジニアの知的生産術_著者公式ページ"
       ],
       "verifiability": "external",
-      "notes": "韓国語版も刊行。2018-10にジュンク堂本店売上ランキング10位。2014の記事「エンジニアの学び方」(Dot=2014-engineer-learning-method-article)を原型とする。"
+      "notes": "韓国語版も刊行。2018-10にジュンク堂本店売上ランキング10位。2014の記事「エンジニアの学び方」(WEB+DB PRESS Vol.80)の好評→連載→書籍企画という経緯で生まれた。"
     },
     {
       "id": "2019-keichobot",
