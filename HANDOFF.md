@@ -89,8 +89,10 @@ cd /Users/nishio/connecting_dots
 rm -rf build && python3 build.py            # ★buildは掃除して作り直す(削除/改名Dotのstale HTML除去)
 D=/Users/nishio/entrypoint/docs
 rm -rf $D/connecting_dots
-cp -r build/connecting_dots $D/connecting_dots   # システム一式は /connecting_dots/ 配下
-cp build/llms.txt $D/llms.txt                     # llms.txt だけ root
+cp -r build/connecting_dots $D/connecting_dots   # システム一式は /connecting_dots/ 配下（CD専有・上書き可）
+# ★ llms.txt は root の【サイト共有ファイル】。cp で丸ごと上書きしない（他プロジェクトの記述を消す）。
+#   現行 $D/llms.txt を開き、Connecting Dots セクションだけ build/llms.txt に合わせて手で更新し、
+#   西尾の識別・他プロジェクトの記述は保全する。cf. memory shared-llms-txt-no-clobber / Q22。
 git -C /Users/nishio/connecting_dots commit -am "..." && git -C /Users/nishio/connecting_dots push
 git -C /Users/nishio/entrypoint add docs && git -C /Users/nishio/entrypoint commit -m "redeploy dots" && git -C /Users/nishio/entrypoint push
 ```
