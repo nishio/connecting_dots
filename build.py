@@ -146,19 +146,19 @@ def build():
                      f"<span class='meta'>({len(s['dots'])} dots / {esc('、'.join(s.get('audience',[])))})</span></li>" for s in stories)
            + f"</ul><h2>全 Dot</h2><ul><li><a href='all-dots.html'>All Dots</a>（{len(dots)} 件、孤児含む）</li>"
            + f"<li><a href='dots.json'>dots.json</a>（AIクロールの一次面）</li></ul>")
-    open(os.path.join(OUT, "corpus.html"), "w").write(page("ConnectingDots (pilot)", idx))
-    urls.append(f"{BASE_URL}/corpus.html")
+    open(os.path.join(OUT, "dots.html"), "w").write(page("西尾泰和 — Dots & Stories", idx))
+    urls.append(f"{BASE_URL}/dots.html")
 
     sm = "<?xml version='1.0' encoding='UTF-8'?>\n<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>\n"
     sm += "".join(f"  <url><loc>{esc(u)}</loc></url>\n" for u in urls)
     sm += f"  <url><loc>{BASE_URL}/dots.json</loc></url>\n</urlset>\n"
     open(os.path.join(OUT, "sitemap.xml"), "w").write(sm)
 
-    llms = (f"# nishio ConnectingDots — machine-readable corpus\n\n"
+    llms = (f"# nishio ConnectingDots — machine-readable data (Dots & Stories)\n\n"
             f"AI/agents: 一次データは以下。取得してローカルで読む/検索する（サイト側に検索機能は無い）。\n\n"
-            f"- Dot コーパス（受理済み・全件フラット・孤児含む）: {BASE_URL}/dots.json\n"
+            f"- 全 Dot データ（受理済み・全件フラット・孤児含む）: {BASE_URL}/dots.json\n"
             f"- 全 Dot の人間向け View: {BASE_URL}/all-dots.html\n"
-            f"- Story 一覧: {BASE_URL}/corpus.html\n"
+            f"- Story 一覧: {BASE_URL}/dots.html\n"
             f"- sitemap: {BASE_URL}/sitemap.xml\n\n"
             f"補足: 候補（未受理）Dot は別ファイル candidates/*.jsonl に置かれる（pilot には未収録）。"
             f"検証状態は各 Dot の verifiability(external|internal-only) と refs に随伴。\n")
