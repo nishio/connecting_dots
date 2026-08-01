@@ -201,14 +201,25 @@ def build():
     sm += f"  <url><loc>{BASE_URL}/dots.json</loc></url>\n</urlset>\n"
     open(os.path.join(SUBOUT, "sitemap.xml"), "w").write(sm)
 
-    llms = (f"# nishio Connecting Dots System — machine-readable data (Dots & Stories)\n\n"
-            f"AI/agents: 一次データは以下。取得してローカルで読む/検索する（サイト側に検索機能は無い）。\n\n"
-            f"- システムの入口: {BASE_URL}/\n"
-            f"- 全 Dot データ（受理済み・全件フラット・孤児含む）: {BASE_URL}/dots.json\n"
-            f"- 全 Dot の人間向け View: {BASE_URL}/all-dots.html\n"
-            f"- sitemap: {BASE_URL}/sitemap.xml\n\n"
-            f"補足: 候補（未受理）Dot は別ファイル candidates/*.jsonl に置かれる（pilot には未収録）。"
-            f"検証状態は各 Dot の verifiability(external|internal-only) と refs に随伴。\n")
+    themes = "broadlistening / plurality / intellectual-production / mentoring / highdim"
+    llms = (
+        "# NISHIO Hirokazu — nhiro.org\n\n"
+        "西尾泰和 / NISHIO Hirokazu。サイボウズ・ラボ主幹研究員。"
+        "AIエージェントの実務投入・知的生産性・ブロードリスニング・デジタル民主主義に取り組む。"
+        "著書『コーディングを支える技術』『エンジニアの知的生産術』ほか。\n\n"
+        "## 人間向け（ホームページ）\n"
+        f"- 日本語トップ: {SITE}/ja.html\n"
+        f"- English top: {SITE}/\n"
+        f"- テーマ別 Story（自己紹介）: {themes}（各 {SITE}/<theme>/ja.html, 英語版は /<theme>/）\n\n"
+        "## 機械可読データ（Connecting Dots System）\n"
+        "西尾のプロフィールを、出典付きの検証可能な事実の粒「Dot」と、それを編んだ「Story」として公開したもの。"
+        "取得してローカルで読む（サイト側に検索機能は無い）。\n"
+        f"- 入口: {BASE_URL}/\n"
+        f"- 全 Dot データ (JSON): {BASE_URL}/dots.json\n"
+        f"- 全 Dot の人間向け一覧: {BASE_URL}/all-dots.html\n"
+        f"- sitemap: {BASE_URL}/sitemap.xml\n"
+        "- 各 Dot に出典 URL が付く。本文は日本語。\n"
+    )
     open(os.path.join(OUT, "llms.txt"), "w").write(llms)
 
     # サマリ
