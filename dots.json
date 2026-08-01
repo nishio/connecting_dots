@@ -112,7 +112,7 @@
         "Plurality Tokyo YouTubeチャンネル"
       ],
       "verifiability": "internal-only",
-      "notes": "開催日は 2023-04-12 が正（西尾＝当事者の確認による）。書かれた記録は各所で食い違うが、いずれも誤り: Scrapbox「日本におけるPluralityの歴史」は 2023-04-14、公式サイト plurality.tokyo は 4/23（西尾が修正依頼済, 2026-08-01時点）。nhiro.org facet Story は 4/12 で正しかった。字幕付き動画の公開先は Code for Japan チャンネル→（コミュニティ発展に伴い）Plurality Tokyo チャンネルへ移動。翻訳本文は Scrapbox「Plurality Tokyo Keynote from Audrey Tang」。"
+      "notes": "開催日 2023-04-12（西尾＝当事者確認）。字幕付き動画は当初 Code for Japan チャンネルで公開、のちコミュニティの発展に伴い Plurality Tokyo チャンネルへ移動。翻訳本文は Scrapbox「Plurality Tokyo Keynote from Audrey Tang」。"
     },
     {
       "id": "2023-10-08-nishio-discord-join",
@@ -790,7 +790,7 @@
       ],
       "cosense_refs": [],
       "verifiability": "external",
-      "notes": "未踏ユース2002のプロジェクト名『4次元グラフによるゲノムの可視化』。クリエータ: 西尾泰和・比戸将平、PM: 竹内郁雄。スーパークリエータ認定(2003-07)につながった研究。対象は『ゲノム配列』。後続の球面SOMによる『遺伝子発現データ』可視化とは対象が異なる別研究（story-joints-hide-claims 実証：highdim Story の <li> はこの前期研究を落としている）。"
+      "notes": "未踏ユース2002のプロジェクト名『4次元グラフによるゲノムの可視化』。クリエータ: 西尾泰和・比戸将平、PM: 竹内郁雄。スーパークリエータ認定(2003-07)につながった研究。対象は『ゲノム配列』で、後続の球面SOMによる『遺伝子発現データ』可視化とは対象の異なる別研究。"
     },
     {
       "id": "2003-super-creator-certification",
@@ -813,7 +813,7 @@
       ],
       "cosense_refs": [],
       "verifiability": "external",
-      "notes": "ゲノム可視化研究(2002-2003)に対する認定＝credential。研究そのものとは別の事実として分離(cf. 24歳博士の分割)。どの facet Story にも属さない near-orphan Dot。"
+      "notes": "ゲノム可視化研究(2002-2003, 未踏ユース)に対する認定＝credential。研究そのものとは別の事実。"
     },
     {
       "id": "2003-2006-spherical-som-gene-expression",
@@ -861,7 +861,7 @@
       ],
       "cosense_refs": [],
       "verifiability": "external",
-      "notes": "学位＝credential。球面SOM研究(2003-2006)の成果に基づくが、学位取得そのものは研究とは別の事実として分離(cf. 24歳博士の分割)。"
+      "notes": "学位＝credential。球面SOM研究(2003-2006)の成果に基づくが、学位取得そのものは研究とは別の事実。"
     },
     {
       "id": "2014-05-word2vec-book",
@@ -907,7 +907,7 @@
         "AIと著作権に関するパブリックコメント"
       ],
       "verifiability": "internal-only",
-      "notes": "対象が『言葉』から『人々の意見・声』へ移行。Talk to the City 自体はnishioの作ではなく、それを用いた実験（過剰帰属を避ける, cf. IGF京都の教訓）。"
+      "notes": "対象が『言葉』から『人々の意見・声』へ移行。Talk to the City 自体は西尾の作ではなく、それを用いた実験。"
     },
     {
       "id": "2024-kouchou-ai-development",
@@ -952,7 +952,7 @@
       ],
       "cosense_refs": [],
       "verifiability": "external",
-      "notes": "西尾は2001年度の採択者ではなく、和田健之介の採択プロジェクト『双方向通信型3Dワールドシミュレーター』の開発メンバー（成果PDFに氏名）。翌2002年の未踏ユースで西尾自身が採択者となりSC認定（別事実）。facet Story の『2001に採択され』は誤り。"
+      "notes": "西尾は2001年度の採択者ではなく、和田健之介の採択プロジェクト『双方向通信型3Dワールドシミュレーター』の開発メンバー（成果PDFに氏名）。翌2002年の未踏ユースで西尾自身が採択者となりSC認定。"
     },
     {
       "id": "2003-2006-teaching-juniors-comparative-proglang",
@@ -971,7 +971,7 @@
       "refs": [],
       "cosense_refs": [],
       "verifiability": "internal-only",
-      "notes": "『コーディングを支える技術』(2013)につながったと西尾は述べる（この因果は本人の主張で公開ソースは無い）。ただし同書が複数のプログラミング言語の使い方を比較する内容であることは書籍説明で確認可能。同時期の球面SOM研究(Dot=2003-2006-spherical-som-gene-expression)とは別の事実（研究 vs 後輩指導）。教える側への移行の原点。"
+      "notes": "『コーディングを支える技術』(2013)につながる後輩指導。研究室が比較ゲノム学だったのにちなみ『比較プログラミング言語学』と称して複数言語を比較する教材を作成。同書は複数のプログラミング言語の使い方を比較する内容。同時期の球面SOM研究とは別の事実（研究 vs 後輩指導）。"
     },
     {
       "id": "2004-2006-monka-it-school-tutor",
@@ -1187,7 +1187,7 @@
         "未踏と僕の関わり"
       ],
       "verifiability": "external",
-      "notes": "『育ててもらった側から育てる側へ』の縦糸の現在地。未踏ジュニアのメンターコミュニティは後年の協働のハブになった: 修了生の新美陸人が Plurality Tokyo を発起（事実）、安野貴博とはメンター同士として面識（事実）。これらは事実だが Story では焦点化しない（dots に記録）。"
+      "notes": "『育ててもらった側から育てる側へ』の縦糸の現在地。未踏ジュニアのメンターコミュニティは後年の協働のハブになった: 修了生の新美陸人が Plurality Tokyo を発起、安野貴博とはメンター同士として面識。"
     },
     {
       "id": "2017-beproud-technical-advisor",
@@ -1313,7 +1313,7 @@
       ],
       "cosense_refs": [],
       "verifiability": "external",
-      "notes": "中国語版・韓国語版も刊行。複数のプログラミング言語の使い方を比較する内容。書籍化の直接の起点は WEB+DB PRESS Vol.60 の単発特集記事(2010, Dot=2010-12-wdpress-vol60-language-design)。大学院期の『比較プログラミング言語学』の後輩指導はその背景（因果は西尾の主張）。"
+      "notes": "中国語版・韓国語版も刊行。複数のプログラミング言語の使い方を比較する内容。書籍化の直接の起点は WEB+DB PRESS Vol.60 の単発特集記事(2010)。大学院期の『比較プログラミング言語学』の後輩指導はその背景。"
     },
     {
       "id": "2017-scrapbox-external-brain",
@@ -1494,7 +1494,7 @@
         "都知事選2024"
       ],
       "verifiability": "external",
-      "notes": "西尾の役割は「実験に協力」。選挙運動主導ではない（過剰帰属を避ける）。安野貴博とは未踏ジュニアのメンター同士として面識があった。"
+      "notes": "西尾の役割は『実験に協力』。安野貴博とは未踏ジュニアのメンター同士として面識があった。"
     },
     {
       "id": "2024-09-cybozu-internal-broadlistening",
