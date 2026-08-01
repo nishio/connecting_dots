@@ -74,5 +74,20 @@ Set B の文言には**繋ぎ目の捏造**が焼き込まれている。移行�
 - 解決済: Q3(Inbox=candidates/*.jsonl) / Q5(all-dots) / Q11(deploy federated) / Q13+Q14(畳む vs 分割ルール) / Q18(分離スタイル・status不要)。
 - 未決: Q6(ビルドツール選定・現状 Python stdlib で足りている) / Q7(AI候補抽出フロー) / Q15(Story の entry_points/call_to_action) / Q16(prototype-first の重み付け)。
 
-## 外向きステップ（自己紹介移行が一段落してから）
-- `dots/*.json` per-Dot 分割 / GitHub remote 作成 + push / `build/` を nhiro.org(entrypoint) へ配信して `https://nhiro.org/dots.json` を実公開。
+## 外向きステップ
+- ✅ **GitHub remote 作成 + push 済み**: https://github.com/nishio/connecting_dots （public, origin/main）。
+- ✅ **nhiro.org 実公開 済み（2026-08-01）**: `https://nhiro.org/dots.json` ライブ（HTTP 200, 80 Dot）。per-Dot `/dots/<id>.html`・Story `/stories/<id>.html`・`/all-dots.html`・`/corpus.html`・`/sitemap.xml`・`/llms.txt` も配信。ja.html トップにコーパスへのリンク追加。build の landing は nhiro.org トップと衝突しないよう **`corpus.html`**（index.html でない）。
+- ⬜ **未実施（任意）**: `dots/*.json` per-Dot ソース分割（git 差分性向上）。現状ソースは単一 `dots.json`。
+
+### 再配信手順（dots.json / story を編集したら）
+```
+cd /Users/nishio/connecting_dots
+rm -rf build && python3 build.py            # ★buildは掃除して作り直す(削除/改名Dotのstale HTML除去)
+D=/Users/nishio/entrypoint/docs
+rm -rf $D/dots $D/stories
+cp build/dots.json build/all-dots.html build/corpus.html build/sitemap.xml build/llms.txt $D/
+cp -r build/dots $D/dots ; cp -r build/stories $D/stories
+git -C /Users/nishio/connecting_dots commit -am "..." && git -C /Users/nishio/connecting_dots push
+git -C /Users/nishio/entrypoint add docs && git -C /Users/nishio/entrypoint commit -m "redeploy dots" && git -C /Users/nishio/entrypoint push
+```
+- **公開 dots.json の notes は公開適合**（誤り叙述・内部設計ジャーゴンを入れない。正しい事実＋出典で書く）。人間向け View(HTML) は notes を表示しないが、生 JSON は公開取得可能。
