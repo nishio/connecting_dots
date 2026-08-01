@@ -12,7 +12,7 @@
     "2022-09-08-glen-call-for-translators",
     "2022-09-16-collaborative-book-project-launch",
     "2022-11-16-plurality-net-maintenance-call",
-    "2023-04-14-plurality-tokyo",
+    "2023-04-12-plurality-tokyo",
     "2023-10-08-nishio-discord-join",
     "2023-10-17-autotrans-launch",
     "2023-10-17-plurality-vector-search-release",
@@ -31,7 +31,7 @@
   ],
   "captions": {
     "2022-09-16-collaborative-book-project-launch": "翻訳プロジェクトの公式な始まり。日本語版も Overview の前まで提示・公開された",
-    "2023-04-14-plurality-tokyo": "日本側コミュニティの可視化。nishio が Audrey Keynote を翻訳したことで翻訳の流れに正式参加",
+    "2023-04-12-plurality-tokyo": "日本側コミュニティの可視化。nishio が Audrey Keynote を翻訳したことで翻訳の流れに正式参加",
     "2023-10-17-autotrans-launch": "season 1: 自動翻訳と人間翻訳の併用を試みる。最初の運用形態",
     "2024-01-20-trinity-merge-season-2": "season 2: 上流変更と season 1 を統合(Trinity Merge=英文・華文・和文の三者合流)。並列機械翻訳の読みづらさが運用学習として残った",
     "2024-02-29-season-3-no-merge": "season 3: マージを止めて AI による並行的言い換えに振った方針転換",
@@ -49,7 +49,7 @@
     },
     {
       "title": "Plurality Tokyo と nishio の合流 (2023)",
-      "from": "2023-04-14-plurality-tokyo",
+      "from": "2023-04-12-plurality-tokyo",
       "to": "2023-10-17-plurality-vector-search-release"
     },
     {
