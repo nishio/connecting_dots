@@ -1267,7 +1267,7 @@
       ],
       "cosense_refs": [],
       "verifiability": "external",
-      "notes": "この特集を発展させたものが『コーディングを支える技術』(2013, Dot=2013-04-langbook)。西尾は第2〜6章を執筆。"
+      "notes": "この単発特集記事（第2〜6章を執筆）がのちに書籍版『コーディングを支える技術』(2013, Dot=2013-04-langbook)へ発展した——書籍化の直接の起点。"
     },
     {
       "id": "2013-04-langbook",
@@ -1288,7 +1288,7 @@
       ],
       "cosense_refs": [],
       "verifiability": "external",
-      "notes": "中国語版・韓国語版も刊行。複数のプログラミング言語の使い方を比較する内容。WEB+DB PRESS Vol.60 特集「プログラマが知るべき言語設計の基礎知識」(2010, Dot=2010-12-wdpress-vol60-language-design)を発展させたもの。大学院期の『比較プログラミング言語学』の後輩指導も背景（因果は西尾の主張）。"
+      "notes": "中国語版・韓国語版も刊行。複数のプログラミング言語の使い方を比較する内容。書籍化の直接の起点は WEB+DB PRESS Vol.60 の単発特集記事(2010, Dot=2010-12-wdpress-vol60-language-design)。大学院期の『比較プログラミング言語学』の後輩指導はその背景（因果は西尾の主張）。"
     },
     {
       "id": "2017-scrapbox-external-brain",
