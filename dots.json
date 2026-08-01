@@ -923,6 +923,290 @@
       "cosense_refs": [],
       "verifiability": "external",
       "notes": "kouchou-aiはデジタル民主主義2030のOSS。nishioは開発参加（単独開発ではない）。高次元ベクトル可視化の縦糸がブロードリスニングの中核技術として結実。"
+    },
+    {
+      "id": "2001-mitou-software-adoption",
+      "date": "2001-07/2002-02",
+      "event": "IPA未踏ソフトウェア創造事業に採択（育てられた側としての最初の採択）",
+      "kind": "act",
+      "entities": [
+        "IPA未踏"
+      ],
+      "tags": [
+        "mentoring",
+        "mitou",
+        "grown-side"
+      ],
+      "refs": [
+        "https://web.archive.org/web/2004/http://www.ipa.go.jp/NBP/13nendo/13mito/mdata/6-61.htm"
+      ],
+      "cosense_refs": [],
+      "verifiability": "external",
+      "notes": "翌年の未踏ユース採択(2002)→スーパークリエータ認定(2003, Dot=2003-super-creator-certification)とは別の採択。人材育成スレッドの起点『育ててもらった側』。"
+    },
+    {
+      "id": "2003-2006-teaching-juniors-comparative-proglang",
+      "date": "2003-04/2006-03",
+      "event": "大学院（比較ゲノム学の研究室）で後輩にプログラミングを教える立場になり、「比較プログラミング言語学」と称して複数言語を比較する教材を作成",
+      "kind": "education",
+      "entities": [
+        "NAIST"
+      ],
+      "tags": [
+        "mentoring",
+        "teaching",
+        "comparative-proglang",
+        "grown-to-growing"
+      ],
+      "refs": [],
+      "cosense_refs": [],
+      "verifiability": "internal-only",
+      "notes": "『コーディングを支える技術』(2013)の直接の源流。同時期の球面SOM研究(Dot=2003-2006-spherical-som-gene-expression)とは別の事実（研究 vs 後輩指導、cf. 24歳博士の分割）。教える側への移行の原点。"
+    },
+    {
+      "id": "2004-2006-monka-it-school-tutor",
+      "date": "2004-08/2006-08",
+      "event": "文部科学省 IT人材養成プロジェクト ITスクール2004・2005／ICTスクール2006 でチューターを務める",
+      "kind": "education",
+      "entities": [
+        "文部科学省"
+      ],
+      "tags": [
+        "mentoring",
+        "teaching",
+        "monka-it-school"
+      ],
+      "refs": [],
+      "cosense_refs": [],
+      "verifiability": "internal-only",
+      "notes": "3年間の同一役割（チューター）を1 Dot に畳む。"
+    },
+    {
+      "id": "2009-2011-security-programming-camp-lecturer",
+      "date": "2009-08/2011-08",
+      "event": "セキュリティ＆プログラミングキャンプの講師（2010年はWG委員を兼任、2011年はプログラミング言語クラスのクラス長）",
+      "kind": "education",
+      "entities": [
+        "IPA",
+        "JIPDEC",
+        "JNSA"
+      ],
+      "tags": [
+        "mentoring",
+        "teaching",
+        "security-programming-camp"
+      ],
+      "refs": [
+        "http://www.jipdec.or.jp/archives/project/camp/",
+        "https://web.archive.org/web/2011/http://www.ipa.go.jp/jinzai/renkei/spcamp2010/",
+        "https://web.archive.org/web/2012/http://www.ipa.go.jp/jinzai/renkei/spcamp2011/"
+      ],
+      "cosense_refs": [],
+      "verifiability": "external",
+      "notes": "3年間の講師役を1 Dot に畳み、役割の昇格(講師→WG委員→クラス長)を event に記す。"
+    },
+    {
+      "id": "2013-2014-kyodai-summer-design-school",
+      "date": "2013-09/2014-09",
+      "event": "京都大学サマーデザインスクールで3日間のワークショップを開催（2013「チームワークのデザイン」／2014「学び方のデザイン〜盲点を見つけよう」）",
+      "kind": "education",
+      "entities": [
+        "京都大学"
+      ],
+      "tags": [
+        "mentoring",
+        "teaching",
+        "learning-design",
+        "kuds"
+      ],
+      "refs": [
+        "https://nhiro.org/kuds2013/",
+        "http://nhiro.org/kuds2014/"
+      ],
+      "cosense_refs": [],
+      "verifiability": "external",
+      "notes": "『学び方のデザイン』の実践。エンジニアの知的生産術(2018)へつながる学び方研究の一部。"
+    },
+    {
+      "id": "2013-2014-nada-lectures",
+      "date": "2013-10/2014-10",
+      "event": "母校・灘高等学校で講演（2013「キャリア戦略論 - 人・生き方・働き方の多様性」／2014「学び方のデザイン 盲点に気づくところから始まる学びのプロセス」）",
+      "kind": "act",
+      "entities": [
+        "灘高等学校"
+      ],
+      "tags": [
+        "mentoring",
+        "lecture",
+        "learning-design"
+      ],
+      "refs": [
+        "http://d.hatena.ne.jp/nishiohirokazu/20131021/1382316308",
+        "http://d.hatena.ne.jp/nishiohirokazu/20141025/1414246099"
+      ],
+      "cosense_refs": [],
+      "verifiability": "external",
+      "notes": "2014-02には九州工業大学・未踏塾でも講演。同一の学び方デザイン実践。"
+    },
+    {
+      "id": "2014-engineer-learning-method-article",
+      "date": "2014",
+      "event": "「エンジニアの学び方」を執筆（WEB+DB PRESS Vol.80 特別企画）",
+      "kind": "publication",
+      "entities": [
+        "技術評論社"
+      ],
+      "tags": [
+        "mentoring",
+        "learning-design",
+        "writing",
+        "intellectual-production"
+      ],
+      "refs": [
+        "http://gihyo.jp/lifestyle/feature/01/engineer-studying"
+      ],
+      "cosense_refs": [],
+      "verifiability": "external",
+      "notes": "『エンジニアの知的生産術』(2018)の原型。教える実践と『学び方』研究が表裏一体であることの結節点。"
+    },
+    {
+      "id": "2015-2017-tokyo-metropolitan-univ-lecturer",
+      "date": "2015/2017",
+      "event": "首都大学東京 非常勤講師（夏季集中講座、各年約1ヶ月、2015・2016・2017）",
+      "kind": "education",
+      "entities": [
+        "首都大学東京"
+      ],
+      "tags": [
+        "mentoring",
+        "teaching",
+        "university-lecturer"
+      ],
+      "refs": [],
+      "cosense_refs": [],
+      "verifiability": "internal-only"
+    },
+    {
+      "id": "2015-2025-mitou-board-director",
+      "date": "2015-09/2025-05",
+      "event": "一般社団法人未踏の理事を務める（2025年5月に退任）",
+      "kind": "act",
+      "entities": [
+        "一般社団法人未踏"
+      ],
+      "tags": [
+        "mentoring",
+        "mitou",
+        "governance"
+      ],
+      "refs": [
+        "http://www.mitou.org/",
+        "https://scrapbox.io/nishio/一般社団法人未踏の理事を退任しました"
+      ],
+      "cosense_refs": [
+        "一般社団法人未踏の理事を退任しました"
+      ],
+      "verifiability": "external",
+      "notes": "未踏理事(統治)は未踏ジュニア設立(2016)・未踏ジュニアメンター(2016-)とは別の事実として3分割。"
+    },
+    {
+      "id": "2016-mitou-junior-cofounder",
+      "date": "2016",
+      "event": "未踏ジュニア（小中高生クリエータ支援プログラム）をコファウンダーとして設立",
+      "kind": "act",
+      "entities": [
+        "未踏ジュニア"
+      ],
+      "tags": [
+        "mentoring",
+        "mitou-junior",
+        "founding"
+      ],
+      "refs": [
+        "https://jr.mitou.org/"
+      ],
+      "cosense_refs": [],
+      "verifiability": "external",
+      "notes": "設立（一度きりの行為）とメンター（継続する役割）は別 Dot。"
+    },
+    {
+      "id": "2016-mitou-junior-mentor",
+      "date": "2016/..",
+      "event": "未踏ジュニアのメンターとして、17歳以下のクリエータを資金とメンタリングで支援（設立から毎年、現在に至る）",
+      "kind": "act",
+      "entities": [
+        "未踏ジュニア"
+      ],
+      "tags": [
+        "mentoring",
+        "mitou-junior",
+        "ongoing",
+        "grown-to-growing"
+      ],
+      "refs": [
+        "https://jr.mitou.org/mentors/"
+      ],
+      "cosense_refs": [
+        "未踏と僕の関わり"
+      ],
+      "verifiability": "external",
+      "notes": "『育ててもらった側から育てる側へ』の縦糸の現在地。メンターコミュニティは安野貴博・新美陸人ら後年の協働のハブにもなった（関係主張はStory側で扱い、未検証の帰属はDot化しない）。"
+    },
+    {
+      "id": "2017-beproud-technical-advisor",
+      "date": "2017-05/2018",
+      "event": "株式会社ビープラウドの技術顧問として、オンライン学習サービスPyQの機械学習カリキュラムなどに協力",
+      "kind": "act",
+      "entities": [
+        "株式会社ビープラウド",
+        "PyQ"
+      ],
+      "tags": [
+        "mentoring",
+        "teaching",
+        "advisor"
+      ],
+      "refs": [
+        "https://www.beproud.jp/",
+        "https://pyq.jp/"
+      ],
+      "cosense_refs": [],
+      "verifiability": "external"
+    },
+    {
+      "id": "2018-programming-picture-book",
+      "date": "2018",
+      "event": "小学生向け書籍『世界一わかりやすい！プログラミングのしくみ』を刊行（川合秀実と共著）",
+      "kind": "publication",
+      "entities": [
+        "川合秀実"
+      ],
+      "tags": [
+        "mentoring",
+        "book",
+        "kids"
+      ],
+      "refs": [],
+      "cosense_refs": [],
+      "verifiability": "internal-only",
+      "notes": "毎日新聞社「NEWSがわかる」での連載(2016–2017)に加筆したもの。"
+    },
+    {
+      "id": "2018-2024-titech-specially-appointed-assoc-prof",
+      "date": "2018-04/2024-03",
+      "event": "東京工業大学 環境・社会理工学院 イノベーション科学系 技術経営専門職学位課程 特定准教授",
+      "kind": "education",
+      "entities": [
+        "東京工業大学"
+      ],
+      "tags": [
+        "mentoring",
+        "teaching",
+        "university"
+      ],
+      "refs": [],
+      "cosense_refs": [],
+      "verifiability": "internal-only"
     }
   ]
 }

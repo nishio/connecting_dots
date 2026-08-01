@@ -5,8 +5,9 @@
 
 ## 現在地（TL;DR）
 - 設計は closed。`build.py` v0 が end-to-end で動作。
-- **本移行 第1テーマ = highdim 完了**（2026-08-01）。dots.json に highdim Dot 7件を追加（35→**42 Dot**）、`story-highdim.json` 新設、build 動作確認済み。**やり方（3工程）は下記「移行プレイブック」で確立**。
-- **次の作業 = 残りテーマの本移行**：mentoring / broadlistening / intellectual-production / plurality-facet。確立した3工程を繰り返す。一次年表は `entrypoint/docs/history-ja.html` が全テーマ共通で使える。
+- **本移行 進行中**。完了テーマ: **highdim**（Dot 7件, `story-highdim.json`）／**mentoring**（Dot 14件, `story-mentoring.json`）。現在 **56 Dot / 4 Story**、build 動作確認済み。**やり方（3工程）は下記「移行プレイブック」で確立**。
+- **フラットプールの実効**: mentoring は highdim 移行で作った `2003-super-creator-certification` を再利用（新規作成せず Story から参照）。テーマ間で Dot を共有できている。
+- **次の作業 = 残りテーマの本移行**：broadlistening / intellectual-production / plurality-facet。確立した3工程を繰り返す。一次年表は `entrypoint/docs/history-ja.html` が全テーマ共通で使える。intellectual-production 移行時に『コーディングを支える技術』(2013)『エンジニアの知的生産術』(2018) の書籍 Dot を作る（mentoring Story は現状これらを caption 文中で参照するに留めている）。
 
 ## 移行プレイブック（highdim で確立、以降のテーマもこれで）
 1. **atomize** — facet Story の `<li>` と旧プロトタイプ Dot（`archive/prototype-2026-02/data/dots/`）を atomic fact に分解。判定「同じ atomic イベントか別の事実か」。**credential（学位・認定）は研究とは別 fact に分割**（cf. 24歳博士）。
