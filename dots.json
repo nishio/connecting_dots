@@ -365,7 +365,9 @@
         "book",
         "english"
       ],
-      "refs": [],
+      "refs": [
+        "https://github.com/pluralitybook/plurality"
+      ],
       "cosense_refs": [
         "英語版5/20出版"
       ],
@@ -768,6 +770,8 @@
       "kind": "research",
       "entities": [
         "IPA未踏ユース",
+        "比戸将平",
+        "竹内郁雄",
         "金原研究室"
       ],
       "tags": [
@@ -778,13 +782,14 @@
         "profile"
       ],
       "refs": [
+        "https://www.ipa.go.jp/jinzai/mitou/esp/2002/2002-youth-seika.html",
         "http://www.jsbi.org/journal/GIW02/GIW02P099.pdf",
         "http://kanaya.aist-nara.ac.jp/~hiroka-n/prosym2003_1.pdf",
         "http://www.ipa.go.jp/SPC/report/02fy-pro/report/1302/paper.pdf"
       ],
       "cosense_refs": [],
       "verifiability": "external",
-      "notes": "スーパークリエータ認定(2003-07)につながった研究。対象は『ゲノム配列』。後続の球面SOMによる『遺伝子発現データ』可視化とは対象が異なる別研究（story-joints-hide-claims 実証：highdim Story の <li> はこの前期研究を落としている）。"
+      "notes": "未踏ユース2002のプロジェクト名『4次元グラフによるゲノムの可視化』。クリエータ: 西尾泰和・比戸将平、PM: 竹内郁雄。スーパークリエータ認定(2003-07)につながった研究。対象は『ゲノム配列』。後続の球面SOMによる『遺伝子発現データ』可視化とは対象が異なる別研究（story-joints-hide-claims 実証：highdim Story の <li> はこの前期研究を落としている）。"
     },
     {
       "id": "2003-super-creator-certification",
@@ -801,6 +806,7 @@
         "profile"
       ],
       "refs": [
+        "https://www.ipa.go.jp/jinzai/mitou/esp/2002/2002-youth-seika.html",
         "http://www.ipa.go.jp/NBP/14nendo/14youth/index.files/SCichiran.pdf",
         "https://web.archive.org/web/2023/https://www.ipa.go.jp/jinzai/esp/mitoipedia/spc/year/2002ysc.html"
       ],
@@ -923,15 +929,17 @@
       ],
       "cosense_refs": [],
       "verifiability": "external",
-      "notes": "kouchou-aiはデジタル民主主義2030のOSS。nishioは開発参加（単独開発ではない）。高次元ベクトル可視化の縦糸がブロードリスニングの中核技術として結実。"
+      "notes": "西尾は広聴AI（kouchou-ai）の開発コントリビューター（github.com/digitaldemocracy2030/kouchou-ai の contributors で検証可能）。デジタル民主主義2030のOSS。高次元ベクトル可視化の縦糸がブロードリスニングの中核技術として結実。"
     },
     {
-      "id": "2001-mitou-software-adoption",
+      "id": "2001-mitou-software-participation",
       "date": "2001-07/2002-02",
-      "event": "IPA未踏ソフトウェア創造事業に採択（育てられた側としての最初の採択）",
+      "event": "IPA未踏ソフトウェア創造事業2001の採択プロジェクト「双方向通信型3Dワールドシミュレーター」（採択者: 和田健之介、PM: 竹内郁雄）に開発メンバーとして参加",
       "kind": "act",
       "entities": [
-        "IPA未踏"
+        "IPA未踏",
+        "和田健之介",
+        "竹内郁雄"
       ],
       "tags": [
         "mentoring",
@@ -939,11 +947,11 @@
         "grown-side"
       ],
       "refs": [
-        "https://web.archive.org/web/2004/http://www.ipa.go.jp/NBP/13nendo/13mito/mdata/6-61.htm"
+        "https://www.ipa.go.jp/jinzai/mitou/esp/2001/seika.html"
       ],
       "cosense_refs": [],
       "verifiability": "external",
-      "notes": "翌年の未踏ユース採択(2002)→スーパークリエータ認定(2003, Dot=2003-super-creator-certification)とは別の採択。人材育成スレッドの起点『育ててもらった側』。"
+      "notes": "西尾は2001年度の採択者ではなく、和田健之介の採択プロジェクト『双方向通信型3Dワールドシミュレーター』の開発メンバー（成果PDFに氏名）。翌2002年の未踏ユースで西尾自身が採択者となりSC認定（別事実）。facet Story の『2001に採択され』は誤り。"
     },
     {
       "id": "2003-2006-teaching-juniors-comparative-proglang",
@@ -1392,25 +1400,6 @@
       "notes": "知的生産の主語が『個人』から『集団（大勢の主観）』へ拡張する橋渡し。ブロードリスニング実践へつながる。"
     },
     {
-      "id": "2024-lenchi-project",
-      "date": "2024/..",
-      "event": "LLM時代の知的生産（LENCHI, 『エンジニアの知的生産術』続編）プロジェクトを始動",
-      "kind": "act",
-      "entities": [
-        "LENCHI"
-      ],
-      "tags": [
-        "intellectual-production",
-        "lenchi",
-        "llm",
-        "ongoing"
-      ],
-      "refs": [],
-      "cosense_refs": [],
-      "verifiability": "internal-only",
-      "notes": "契機は『エンジニアの知的生産術』第5刷(2024-04)と5刷記念講演「LLMを使いこなすエンジニアの知的生産術」(2024-06)。"
-    },
-    {
       "id": "2023-04-broadlistening-encounter",
       "date": "2023-04",
       "event": "書籍『Plurality』の草稿を通じて「ブロードリスニング（broad listening）」の概念に出会う",
@@ -1435,7 +1424,7 @@
     {
       "id": "2024-07-tochijisen-2024-broadlistening",
       "date": "2024-07",
-      "event": "東京都知事選2024で安野貴博候補の陣営に関与し、選挙運動におけるブロードリスニングを実践",
+      "event": "東京都知事選2024（安野貴博陣営）でブロードリスニングの実験に協力",
       "kind": "act",
       "entities": [
         "安野貴博",
@@ -1454,7 +1443,7 @@
         "都知事選2024"
       ],
       "verifiability": "external",
-      "notes": "ブロードリスニング実践の代表事例。西尾は陣営で広聴型の情報収集・整理に関与（選挙運動そのものを主導したという主張ではない、過剰帰属を避ける）。安野貴博とは未踏ジュニアのメンター同士として面識があった。"
+      "notes": "西尾の役割は「実験に協力」。選挙運動主導ではない（過剰帰属を避ける）。安野貴博とは未踏ジュニアのメンター同士として面識があった。"
     },
     {
       "id": "2024-09-cybozu-internal-broadlistening",
@@ -1471,18 +1460,19 @@
         "application"
       ],
       "refs": [
-        "https://scrapbox.io/nishio/サイボウズ社内でのブロードリスニング活用事例"
+        "https://scrapbox.io/nishio/サイボウズ社内でのブロードリスニング活用事例",
+        "https://cybozushiki.cybozu.co.jp/articles/m006299.html"
       ],
       "cosense_refs": [
         "サイボウズ社内でのブロードリスニング活用事例"
       ],
-      "verifiability": "internal-only",
+      "verifiability": "external",
       "notes": "マス政治以外（企業内）へのブロードリスニング応用例。"
     },
     {
       "id": "2024-10-japan-choice-yoron-chizu",
       "date": "2024-10-18",
-      "event": "JAPAN CHOICE「世論地図（ヨロンチズ）」の実装に協力（2024衆院選に向けた意見収集・可視化サービス）",
+      "event": "JAPAN CHOICE「世論地図（ヨロンチズ）」の開発に携わる（2024衆院選に向けた意見収集・可視化サービス）",
       "kind": "release",
       "entities": [
         "JAPAN CHOICE"
@@ -1494,16 +1484,17 @@
       ],
       "refs": [
         "https://japanchoice.jp/public-opinion",
+        "https://github.com/mielka/yoronchizu2024-data",
         "https://labs.cybozu.co.jp/member/nishio.html"
       ],
       "cosense_refs": [],
       "verifiability": "external",
-      "notes": "実装面の協力（単独開発ではない）。"
+      "notes": "ソースコードは非公開だがデータはオープン（github.com/mielka/yoronchizu2024-data で検証可能）。"
     },
     {
       "id": "2024-2025-shin-tokyo-2050-broadlistening",
       "date": "2024-11/2025-01",
-      "event": "東京都の長期戦略「シン東京2050」への意見大募集に AI ブロードリスニングを適用（安野貴博とともに、最終分析は2025-01-31公開）",
+      "event": "東京都の長期戦略「シン東京2050」への意見大募集（最終分析は2025-01-31公開）にアドバイザーとして関わる",
       "kind": "act",
       "entities": [
         "東京都",
@@ -1524,7 +1515,7 @@
         "シン東京2050ブロードリスニング"
       ],
       "verifiability": "external",
-      "notes": "行政の政策形成にブロードリスニングを適用した事例。"
+      "notes": "西尾の役割はアドバイザー。行政の政策形成にブロードリスニングを適用した事例。"
     },
     {
       "id": "2025-idobata-platform",
@@ -1533,7 +1524,8 @@
       "kind": "act",
       "entities": [
         "デジタル民主主義2030",
-        "いどばた"
+        "いどばた",
+        "サイボウズ"
       ],
       "tags": [
         "broadlistening",
@@ -1542,11 +1534,12 @@
         "tool"
       ],
       "refs": [
-        "https://github.com/digitaldemocracy2030/idobata"
+        "https://github.com/digitaldemocracy2030/idobata",
+        "https://cybozushiki.cybozu.co.jp/articles/m006299.html"
       ],
       "cosense_refs": [],
       "verifiability": "external",
-      "notes": "いどばた自体はデジタル民主主義2030の開発物で、nishioは開発者ではない。関与は『社内で運用するプロジェクトへの参加』（過剰帰属を避ける, cf. 都知事選/JAPAN CHOICE）。広聴AI（収集・可視化, Dot=2024-kouchou-ai-development）に対し、いどばたは熟議・意見交換を担う別ツール。"
+      "notes": "いどばた自体はデジタル民主主義2030の開発物で、西尾は開発者ではない。関与は「サイボウズ社内で運用するプロジェクトへの参加」——開発者(青山秀太郎)と協働してサイボウズ専用環境を構築（サイボウズ式2025-12-04記事で裏取り）。広聴AI（収集・可視化）に対しいどばたは熟議・意見交換を担う別ツール。"
     },
     {
       "id": "2025-07-sangiin-2025-broadlistening",
@@ -1647,6 +1640,46 @@
       "cosense_refs": [],
       "verifiability": "external",
       "notes": "Set A 由来の素経歴。孤児 Dot。"
+    },
+    {
+      "id": "2026-02-sustainable-brands-tokyo",
+      "date": "2026-02-18/2026-02-19",
+      "event": "第10回サステナブル・ブランド国際会議2026 東京・丸の内にプレナリースピーカーとして登壇",
+      "kind": "act",
+      "entities": [
+        "サステナブル・ブランド国際会議"
+      ],
+      "tags": [
+        "talk",
+        "broadlistening"
+      ],
+      "refs": [
+        "https://sb-tokyo.com/2026/"
+      ],
+      "cosense_refs": [],
+      "verifiability": "external",
+      "notes": "プレナリースピーカー（所属: サイボウズ・ラボ）。会場は東京国際フォーラム(2026-02-18/19)。セッション名・テーマは公開情報に未掲載(2026-08時点)。社内ブロードリスニング/いどばたの実践に関連する登壇。"
+    },
+    {
+      "id": "2026-oss-quest-code-for-japan",
+      "date": "2026-07",
+      "event": "Code for Japan のボードゲーム「OSSクエスト」完成披露会に参加",
+      "kind": "meeting",
+      "entities": [
+        "Code for Japan",
+        "OSSクエスト"
+      ],
+      "tags": [
+        "oss",
+        "code-for-japan",
+        "event"
+      ],
+      "refs": [
+        "https://luma.com/9cemww3a?tk=yCp2Tg"
+      ],
+      "cosense_refs": [],
+      "verifiability": "internal-only",
+      "notes": "★要確認: 西尾の具体的な関与（制作/登壇/参加）が未確定。会場 Fujitsu Uvance Kawasaki Tower、主催 Code for Japan、日付は2026年7月頃（申込締切7/22）。luma ページに西尾の記載が無いため関与内容の確定が必要。どの Story にも未所属（孤児）。"
     }
   ]
 }
