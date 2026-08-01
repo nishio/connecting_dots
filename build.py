@@ -139,15 +139,58 @@ def build():
     }
     open(os.path.join(OUT, "dots.json"), "w").write(json.dumps(manifest, ensure_ascii=False, indent=2))
 
-    # 5) index / sitemap / llms.txt
-    idx = (f"<h1>ConnectingDots (pilot build)</h1>"
-           f"<h2>Stories</h2><ul>"
-           + "".join(f"<li><a href='stories/{esc(s['id'])}.html'>{esc(s['title'])}</a> "
-                     f"<span class='meta'>({len(s['dots'])} dots / {esc('、'.join(s.get('audience',[])))})</span></li>" for s in stories)
-           + f"</ul><h2>全 Dot</h2><ul><li><a href='all-dots.html'>All Dots</a>（{len(dots)} 件、孤児含む）</li>"
-           + f"<li><a href='dots.json'>dots.json</a>（AIクロールの一次面）</li></ul>")
-    open(os.path.join(OUT, "dots.html"), "w").write(page("西尾泰和 — Dots & Stories", idx))
+    # 5) Connecting Dots System の index（ja / en）/ sitemap / llms.txt
+    story_items = "".join(
+        f"<li><a href='stories/{esc(s['id'])}.html'>{esc(s['title'])}</a> "
+        f"<span class='meta'>({len(s['dots'])} dots / {esc('、'.join(s.get('audience', [])))})</span></li>"
+        for s in stories)
+
+    desc_ja = ("<strong>Connecting Dots System</strong> は、後から振り返るとストーリーになる出来事を、"
+               "忘れて失う前に記録しておくための仕組みです。検証可能な事実を「点（Dot）」として貯め、"
+               "そこから人が後で「線（Story）」を編みます。「点は後からしか繋がらない」（Steve Jobs）ため、"
+               "事実は個別に記録し、意味づけ（どう繋ぐか）は後から与える。"
+               "同じ点の集合から、読者や目的に応じて複数の Story が並立します。"
+               "全 Dot は出典付きの機械可読データ <code>dots.json</code> として公開します。")
+    desc_en = ("<strong>Connecting Dots System</strong> records the events that, in hindsight, become a story "
+               "— before they are forgotten and lost. Verifiable facts are kept as “Dots”; a person later "
+               "weaves them into “Stories.” Because you can only connect the dots looking backwards "
+               "(Steve Jobs), the facts are recorded individually and the meaning — how they connect — is added "
+               "afterward. The same set of dots supports multiple parallel stories, by audience and purpose. "
+               "Every Dot is published as sourced, machine-readable data (<code>dots.json</code>).")
+
+    ja_body = (
+        f"<h1>Connecting Dots System</h1><p>{desc_ja}</p>"
+        f"<h2>Stories</h2><ul>{story_items}</ul>"
+        f"<p class='meta'>読み物として整えた版は<a href='{BASE_URL}/ja.html'>西尾のホームページ</a>（各テーマ）にあります。</p>"
+        f"<h2>全 Dot</h2><ul>"
+        f"<li><a href='all-dots.html'>All Dots</a>（{len(dots)} 件・孤児含む）</li>"
+        f"<li><a href='dots.json'>dots.json</a>（出典付きの機械可読データ）</li></ul>"
+        f"<h2>ソース</h2><ul><li><a href='https://github.com/nishio/connecting_dots'>github.com/nishio/connecting_dots</a></li></ul>"
+        f"<h2>機械向け</h2><ul><li><a href='sitemap.xml'>sitemap.xml</a> / <a href='llms.txt'>llms.txt</a></li></ul>"
+        f"<p class='meta'><a href='{BASE_URL}/ja.html'>&larr; 西尾泰和のホームページ</a></p>")
+    en_body = (
+        f"<h1>Connecting Dots System</h1><p>{desc_en}</p>"
+        f"<h2>Stories</h2><ul>{story_items}</ul>"
+        f"<p class='meta'>Story text is in Japanese. English write-ups are on <a href='{BASE_URL}/'>NISHIO's homepage</a>.</p>"
+        f"<h2>All Dots</h2><ul>"
+        f"<li><a href='all-dots.html'>All Dots</a> ({len(dots)} incl. orphans)</li>"
+        f"<li><a href='dots.json'>dots.json</a> (sourced, machine-readable data)</li></ul>"
+        f"<h2>Source</h2><ul><li><a href='https://github.com/nishio/connecting_dots'>github.com/nishio/connecting_dots</a></li></ul>"
+        f"<h2>Machine-readable</h2><ul><li><a href='sitemap.xml'>sitemap.xml</a> / <a href='llms.txt'>llms.txt</a></li></ul>"
+        f"<p class='meta'><a href='{BASE_URL}/'>&larr; NISHIO Hirokazu's homepage</a></p>")
+
+    def _landing(lang, title, toggle_href, toggle_label, body):
+        return (f"<!DOCTYPE html><html lang='{lang}'><head><meta charset='utf-8'>"
+                f"<meta name='viewport' content='width=device-width,initial-scale=1'>"
+                f"<title>{esc(title)}</title><style>{CSS}</style></head><body>"
+                f"<nav><a href='{toggle_href}'>{esc(toggle_label)}</a></nav>{body}</body></html>")
+
+    open(os.path.join(OUT, "dots.html"), "w").write(
+        _landing("ja", "Connecting Dots System — 西尾泰和", "dots.en.html", "English", ja_body))
+    open(os.path.join(OUT, "dots.en.html"), "w").write(
+        _landing("en", "Connecting Dots System — NISHIO Hirokazu", "dots.html", "日本語", en_body))
     urls.append(f"{BASE_URL}/dots.html")
+    urls.append(f"{BASE_URL}/dots.en.html")
 
     sm = "<?xml version='1.0' encoding='UTF-8'?>\n<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>\n"
     sm += "".join(f"  <url><loc>{esc(u)}</loc></url>\n" for u in urls)
