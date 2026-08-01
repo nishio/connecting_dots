@@ -1663,8 +1663,8 @@
     {
       "id": "2026-oss-quest-code-for-japan",
       "date": "2026-07",
-      "event": "Code for Japan のボードゲーム「OSSクエスト」完成披露会に参加",
-      "kind": "meeting",
+      "event": "Code for Japan のボードゲーム「OSSクエスト」の制作に関与（完成披露会を開催）",
+      "kind": "release",
       "entities": [
         "Code for Japan",
         "OSSクエスト"
@@ -1672,14 +1672,15 @@
       "tags": [
         "oss",
         "code-for-japan",
-        "event"
+        "board-game",
+        "creation"
       ],
       "refs": [
         "https://luma.com/9cemww3a?tk=yCp2Tg"
       ],
       "cosense_refs": [],
       "verifiability": "internal-only",
-      "notes": "★要確認: 西尾の具体的な関与（制作/登壇/参加）が未確定。会場 Fujitsu Uvance Kawasaki Tower、主催 Code for Japan、日付は2026年7月頃（申込締切7/22）。luma ページに西尾の記載が無いため関与内容の確定が必要。どの Story にも未所属（孤児）。"
+      "notes": "西尾はOSSクエストの制作に関与（本人確認）。完成披露会は Fujitsu Uvance Kawasaki Tower、主催 Code for Japan、2026年7月頃（申込締切7/22）。luma ページに西尾個人の記載は無いが制作関与は確定。どの Story にも未所属（孤児）。"
     }
   ]
 }
