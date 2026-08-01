@@ -88,7 +88,7 @@
     {
       "id": "2023-04-14-plurality-tokyo",
       "date": "2023-04-14",
-      "event": "Plurality Tokyo 開催。nishio が Audrey Tang Keynote を翻訳、Code for Japan チャンネルで字幕付き動画公開",
+      "event": "Plurality Tokyo 開催。nishio が Audrey Tang の Keynote を翻訳し字幕付き動画を公開（当初 Code for Japan チャンネルで公開、のち Plurality コミュニティの発展に伴い Plurality Tokyo チャンネルが作られ、そちらへ移動）",
       "kind": "meeting",
       "entities": [
         "hal sk",
@@ -108,10 +108,11 @@
       "refs": [],
       "cosense_refs": [
         "Plurality Tokyo",
-        "Audrey Tang Keynote in Plurality Tokyo",
+        "Plurality Tokyo Keynote from Audrey Tang",
         "Plurality Tokyo YouTubeチャンネル"
       ],
-      "verifiability": "internal-only"
+      "verifiability": "internal-only",
+      "notes": "字幕付き動画の公開先は Code for Japan チャンネル→Plurality Tokyo チャンネルへ移動（コミュニティ発展の副産物）。翻訳本文は Scrapbox「Plurality Tokyo Keynote from Audrey Tang」。"
     },
     {
       "id": "2023-10-08-nishio-discord-join",
