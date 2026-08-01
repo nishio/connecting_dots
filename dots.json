@@ -1436,13 +1436,14 @@
         "origin"
       ],
       "refs": [
-        "https://scrapbox.io/nishio/ブロードリスニング：みんなが聖徳太子になる技術"
+        "https://scrapbox.io/nishio/ブロードリスニング：みんなが聖徳太子になる技術",
+        "https://github.com/pluralitybook/plurality/blob/main/contents/english/5-4-augmented-deliberation.md"
       ],
       "cosense_refs": [
         "ブロードリスニング：みんなが聖徳太子になる技術"
       ],
-      "verifiability": "internal-only",
-      "notes": "当時のメモ『ブロードリスニングは生身の人間には不可能な多勢の意見を聞くことを可能にする技術。人間増強の一種として興味がある』。知的生産性向上の関心軸を『個人の増強』から『他者理解能力の増強』へ延長する起点。定式化は研究者 Andrew Trask による。"
+      "verifiability": "external",
+      "notes": "当時のメモ『ブロードリスニングは生身の人間には不可能な多勢の意見を聞くことを可能にする技術。人間増強の一種として興味がある』。知的生産性向上の関心軸を『個人の増強』から『他者理解能力の増強』へ延長する起点。「broad listening」概念の由来を Andrew Trask とすることは Plurality book(contents/english/5-4-augmented-deliberation.md の[^Trask]脚注)に記載——ただし書籍自身が「書かれた文献は無いが彼にクレジットしたい」と注記している。"
     },
     {
       "id": "2024-07-tochijisen-2024-broadlistening",
