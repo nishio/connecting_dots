@@ -1074,7 +1074,8 @@
         "intellectual-production"
       ],
       "refs": [
-        "http://gihyo.jp/lifestyle/feature/01/engineer-studying"
+        "http://gihyo.jp/lifestyle/feature/01/engineer-studying",
+        "https://gihyo.jp/list/group/エンジニアの学び方─効率的に知識を得て-成果に結びつける"
       ],
       "cosense_refs": [],
       "verifiability": "external",
@@ -1249,6 +1250,26 @@
       "notes": "『知的生産性の向上（手段）と文明の進歩（目的）』という関心軸の制度的な拠点。2007入社と2018主幹研究員昇格を1 Dot に畳む。"
     },
     {
+      "id": "2010-12-wdpress-vol60-language-design",
+      "date": "2010-12",
+      "event": "WEB+DB PRESS Vol.60 特集1「プログラマが知るべき言語設計の基礎知識」を執筆（言語の誕生・文法と構造化・スコープ・オブジェクト・継承）",
+      "kind": "publication",
+      "entities": [
+        "技術評論社"
+      ],
+      "tags": [
+        "intellectual-production",
+        "writing",
+        "programming-languages"
+      ],
+      "refs": [
+        "https://gihyo.jp/magazine/wdpress/archive/2011/vol60"
+      ],
+      "cosense_refs": [],
+      "verifiability": "external",
+      "notes": "この特集を発展させたものが『コーディングを支える技術』(2013, Dot=2013-04-langbook)。西尾は第2〜6章を執筆。"
+    },
+    {
       "id": "2013-04-langbook",
       "date": "2013-04",
       "event": "『コーディングを支える技術』を刊行 — プログラミング言語の進化の歴史を追い、陳腐化しにくい知識を選んで書いた本",
@@ -1267,7 +1288,7 @@
       ],
       "cosense_refs": [],
       "verifiability": "external",
-      "notes": "中国語版・韓国語版も刊行。複数のプログラミング言語の使い方を比較する内容。大学院期の『比較プログラミング言語学』の後輩指導を源流とする（Dot=2003-2006-teaching-juniors-comparative-proglang、因果は西尾の主張）。"
+      "notes": "中国語版・韓国語版も刊行。複数のプログラミング言語の使い方を比較する内容。WEB+DB PRESS Vol.60 特集「プログラマが知るべき言語設計の基礎知識」(2010, Dot=2010-12-wdpress-vol60-language-design)を発展させたもの。大学院期の『比較プログラミング言語学』の後輩指導も背景（因果は西尾の主張）。"
     },
     {
       "id": "2017-scrapbox-external-brain",
@@ -1310,7 +1331,7 @@
         "エンジニアの知的生産術_著者公式ページ"
       ],
       "verifiability": "external",
-      "notes": "韓国語版も刊行。2018-10にジュンク堂本店売上ランキング10位。2014の記事「エンジニアの学び方」(WEB+DB PRESS Vol.80)の好評→連載→書籍企画という経緯で生まれた。"
+      "notes": "韓国語版も刊行。2018-10にジュンク堂本店売上ランキング10位。経緯: 特集「エンジニアの学び方」(2014, Dot=2014-engineer-learning-method-article)が好評→連載「視点を変えてみよう」(2015-2016, Dot=2015-2016-shiten-wo-kaete-serialization)→書籍(2018)。"
     },
     {
       "id": "2019-keichobot",
@@ -1681,6 +1702,27 @@
       "cosense_refs": [],
       "verifiability": "internal-only",
       "notes": "西尾はOSSクエストの制作に関与（本人確認）。完成披露会は Fujitsu Uvance Kawasaki Tower、主催 Code for Japan、2026年7月頃（申込締切7/22）。luma ページに西尾個人の記載は無いが制作関与は確定。どの Story にも未所属（孤児）。"
+    },
+    {
+      "id": "2015-2016-shiten-wo-kaete-serialization",
+      "date": "2015-06-22/2016-04-22",
+      "event": "gihyo.jp で連載「視点を変えてみよう」を執筆（全6回。学習・コミュニケーション・雇用・リスク判断・学習サイクル等を多角的に考察）",
+      "kind": "publication",
+      "entities": [
+        "技術評論社"
+      ],
+      "tags": [
+        "mentoring",
+        "intellectual-production",
+        "writing",
+        "learning"
+      ],
+      "refs": [
+        "https://gihyo.jp/list/group/視点を変えてみよう"
+      ],
+      "cosense_refs": [],
+      "verifiability": "external",
+      "notes": "特集「エンジニアの学び方」(2014)の好評を受けた連載。『エンジニアの知的生産術』(2018)の書籍企画につながる中間段階。"
     }
   ]
 }
