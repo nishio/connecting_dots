@@ -1080,7 +1080,29 @@
       ],
       "cosense_refs": [],
       "verifiability": "external",
-      "notes": "『エンジニアの学び方』(WEB+DB PRESS Vol.80 特別企画)が好評で連載化し、それが書籍『エンジニアの知的生産術』(2018)の企画につながった（西尾談）。教える実践と『学び方』研究が表裏一体であることの結節点。"
+      "notes": "『エンジニアの学び方』(WEB+DB PRESS Vol.80 特別企画)が好評で続編連載「続・エンジニアの学び方」(2014-08)・「視点を変えてみよう」(2015-2016)へ展開し、書籍『エンジニアの知的生産術』(2018)につながった（西尾談）。教える実践と『学び方』研究が表裏一体であることの結節点。"
+    },
+    {
+      "id": "2014-08-zoku-engineer-learning-serialization",
+      "date": "2014-08",
+      "event": "連載「続・エンジニアの学び方」を執筆開始（毎週火曜、gihyo.jp）。WEB+DB PRESS Vol.80「エンジニアの学び方」の続編",
+      "kind": "publication",
+      "entities": [
+        "技術評論社",
+        "サイボウズ式"
+      ],
+      "tags": [
+        "mentoring",
+        "intellectual-production",
+        "writing",
+        "learning"
+      ],
+      "refs": [
+        "https://cybozushiki.cybozu.co.jp/articles/m000302.html"
+      ],
+      "cosense_refs": [],
+      "verifiability": "external",
+      "notes": "特集「エンジニアの学び方」(2014-04, Dot=2014-engineer-learning-method-article)の続編連載。学び方→『エンジニアの知的生産術』(2018)のチェーンの一本。"
     },
     {
       "id": "2015-2017-tokyo-metropolitan-univ-lecturer",
@@ -1334,7 +1356,7 @@
         "エンジニアの知的生産術_著者公式ページ"
       ],
       "verifiability": "external",
-      "notes": "韓国語版も刊行。2018-10にジュンク堂本店売上ランキング10位。経緯: 特集「エンジニアの学び方」(2014, Dot=2014-engineer-learning-method-article)が好評→連載「視点を変えてみよう」(2015-2016, Dot=2015-2016-shiten-wo-kaete-serialization)→書籍(2018)。"
+      "notes": "韓国語版も刊行。2018-10にジュンク堂本店売上ランキング10位。経緯: 特集「エンジニアの学び方」(2014-04)→連載「続・エンジニアの学び方」(2014-08)→連載「視点を変えてみよう」(2015-2016)→書籍(2018)。"
     },
     {
       "id": "2019-keichobot",

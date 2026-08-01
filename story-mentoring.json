@@ -22,6 +22,7 @@
     "2013-2014-nada-lectures",
     "2013-04-langbook",
     "2014-engineer-learning-method-article",
+    "2014-08-zoku-engineer-learning-serialization",
     "2015-2017-tokyo-metropolitan-univ-lecturer",
     "2015-2016-shiten-wo-kaete-serialization",
     "2015-2025-mitou-board-director",
@@ -50,7 +51,8 @@
     "2018-programming-picture-book": "対象年齢を下げ、小学生にもプログラミングの仕組みを伝える本を共著。",
     "2018-2024-titech-specially-appointed-assoc-prof": "大学の教育職としても6年。教える実践は制度・世代を横断して続いている。",
     "2001-mitou-software-participation": "物語の入り口。未踏ソフトウェア事業の採択プロジェクトに開発メンバーとして加わり、未踏の世界に触れた（採択者は別。自ら採択されるのは翌年の未踏ユース）。",
-    "2015-2016-shiten-wo-kaete-serialization": "『学び方』の実践を連載へ。gihyo.jpの「視点を変えてみよう」全6回が、のちの『エンジニアの知的生産術』の土台になった。"
+    "2015-2016-shiten-wo-kaete-serialization": "『学び方』の実践を連載へ。gihyo.jpの「視点を変えてみよう」全6回が、のちの『エンジニアの知的生産術』の土台になった。",
+    "2014-08-zoku-engineer-learning-serialization": "特集の続編を連載に。『続・エンジニアの学び方』(毎週火曜)で学び方の実践を掘り下げ、のちの書籍につながった。"
   },
   "sections": [
     {
@@ -61,7 +63,7 @@
     {
       "title": "教える側への移行：後輩指導から『学び方』へ (2003–2014)",
       "from": "2003-2006-teaching-juniors-comparative-proglang",
-      "to": "2014-engineer-learning-method-article"
+      "to": "2014-08-zoku-engineer-learning-serialization"
     },
     {
       "title": "育てる側：制度と次世代 (2015–現在)",
