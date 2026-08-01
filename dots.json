@@ -1207,6 +1207,193 @@
       "refs": [],
       "cosense_refs": [],
       "verifiability": "internal-only"
+    },
+    {
+      "id": "2007-cybozu-labs-researcher",
+      "date": "2007-04/..",
+      "event": "サイボウズ・ラボでチームワークや知的生産性を高めるソフトウェアの研究に従事（現在は主幹研究員、2018-04〜）",
+      "kind": "act",
+      "entities": [
+        "サイボウズ・ラボ"
+      ],
+      "tags": [
+        "intellectual-production",
+        "cybozu",
+        "profile",
+        "research"
+      ],
+      "refs": [],
+      "cosense_refs": [],
+      "verifiability": "internal-only",
+      "notes": "『知的生産性の向上（手段）と文明の進歩（目的）』という関心軸の制度的な拠点。2007入社と2018主幹研究員昇格を1 Dot に畳む。"
+    },
+    {
+      "id": "2013-04-langbook",
+      "date": "2013-04",
+      "event": "『コーディングを支える技術』を刊行 — プログラミング言語の進化の歴史を追い、陳腐化しにくい知識を選んで書いた本",
+      "kind": "publication",
+      "entities": [
+        "技術評論社"
+      ],
+      "tags": [
+        "intellectual-production",
+        "mentoring",
+        "book",
+        "profile"
+      ],
+      "refs": [
+        "https://nhiro.org/langbook/"
+      ],
+      "cosense_refs": [],
+      "verifiability": "external",
+      "notes": "中国語版・韓国語版も刊行。大学院期の『比較プログラミング言語学』(Dot=2003-2006-teaching-juniors-comparative-proglang)を源流とする。"
+    },
+    {
+      "id": "2017-scrapbox-external-brain",
+      "date": "2017",
+      "event": "Scrapbox で「外部脳」の運用を開始 — 思考の作業ログを公開で蓄積（現在24,000ページ超）",
+      "kind": "act",
+      "entities": [
+        "Scrapbox"
+      ],
+      "tags": [
+        "intellectual-production",
+        "external-brain",
+        "scrapbox"
+      ],
+      "refs": [
+        "https://scrapbox.io/nishio/"
+      ],
+      "cosense_refs": [],
+      "verifiability": "external",
+      "notes": "知的生産の主語が『個人』から『個人+道具（外部脳）』へ拡張する結節点。"
+    },
+    {
+      "id": "2018-08-engineers-way-book",
+      "date": "2018-08",
+      "event": "『エンジニアの知的生産術』を刊行 — 知的生産の技術をエンジニア視点で分析した中心的著書",
+      "kind": "publication",
+      "entities": [
+        "技術評論社"
+      ],
+      "tags": [
+        "intellectual-production",
+        "mentoring",
+        "book",
+        "profile"
+      ],
+      "refs": [
+        "https://scrapbox.io/nishio/エンジニアの知的生産術_著者公式ページ"
+      ],
+      "cosense_refs": [
+        "エンジニアの知的生産術_著者公式ページ"
+      ],
+      "verifiability": "external",
+      "notes": "韓国語版も刊行。2018-10にジュンク堂本店売上ランキング10位。2014の記事「エンジニアの学び方」(Dot=2014-engineer-learning-method-article)を原型とする。"
+    },
+    {
+      "id": "2019-keichobot",
+      "date": "2019",
+      "event": "Keichobot を公開 — 質問を返して言語化を促すチャットボット",
+      "kind": "release",
+      "entities": [
+        "Keichobot"
+      ],
+      "tags": [
+        "intellectual-production",
+        "tool",
+        "keichobot",
+        "verbalization"
+      ],
+      "refs": [
+        "https://scrapbox.io/nishio/Keichobot",
+        "https://keicho.netlify.app/"
+      ],
+      "cosense_refs": [
+        "Keichobot"
+      ],
+      "verifiability": "external",
+      "notes": "ChatGPT登場(2022-11)より前から『会話で言語化を支援する』コンセプトを実装。2023-03にエンジンをLLMへ交代。知的生産の主語が『個人+AI』へ拡張する結節点。Kozaneba(言語化に対する構造化)とペア。"
+    },
+    {
+      "id": "2021-kozaneba",
+      "date": "2021/..",
+      "event": "Kozaneba の開発を開始 — KJ法の系譜に連なる、考えを整理するデジタル文房具（構造化・一次元化フェーズ）",
+      "kind": "release",
+      "entities": [
+        "Kozaneba"
+      ],
+      "tags": [
+        "intellectual-production",
+        "tool",
+        "kozaneba",
+        "structuring",
+        "kj-method"
+      ],
+      "refs": [
+        "https://kozaneba.netlify.app/"
+      ],
+      "cosense_refs": [],
+      "verifiability": "external",
+      "notes": "『考えを整理するツール』の系譜: Grouping(2014, アイデア生成)→ReGroup(2018–2020)→Movidea→Kozaneba(2021–)。関係はデータ化せずStory編集で表す(relationships-as-edits)。Keichobotが『言語化』、Kozanebaが『構造化・一次元化』を担うペア。"
+    },
+    {
+      "id": "2022-02-engineers-way-english",
+      "date": "2022-02",
+      "event": "『エンジニアの知的生産術』英語版 The Engineer's Way of Creating Knowledge を無料公開",
+      "kind": "release",
+      "entities": [],
+      "tags": [
+        "intellectual-production",
+        "book",
+        "english",
+        "open-access"
+      ],
+      "refs": [
+        "https://mem.nhiro.org/The_Engineer's_Way_of_Creating_Knowledge"
+      ],
+      "cosense_refs": [],
+      "verifiability": "external"
+    },
+    {
+      "id": "2023-08-johoshori-chatgpt-essay",
+      "date": "2023-08",
+      "event": "『情報処理』Vol.64 No.9（ChatGPT特集）に「主観か客観かではなく、一人の主観から大勢の主観へ」を寄稿",
+      "kind": "publication",
+      "entities": [
+        "情報処理学会"
+      ],
+      "tags": [
+        "intellectual-production",
+        "broadlistening",
+        "writing",
+        "collective"
+      ],
+      "refs": [],
+      "cosense_refs": [
+        "主観か客観かではなく、一人の主観から大勢の主観へ"
+      ],
+      "verifiability": "internal-only",
+      "notes": "知的生産の主語が『個人』から『集団（大勢の主観）』へ拡張する橋渡し。ブロードリスニング実践へつながる。"
+    },
+    {
+      "id": "2024-lenchi-project",
+      "date": "2024/..",
+      "event": "LLM時代の知的生産（LENCHI, 『エンジニアの知的生産術』続編）プロジェクトを始動",
+      "kind": "act",
+      "entities": [
+        "LENCHI"
+      ],
+      "tags": [
+        "intellectual-production",
+        "lenchi",
+        "llm",
+        "ongoing"
+      ],
+      "refs": [],
+      "cosense_refs": [],
+      "verifiability": "internal-only",
+      "notes": "契機は『エンジニアの知的生産術』第5刷(2024-04)と5刷記念講演「LLMを使いこなすエンジニアの知的生産術」(2024-06)。"
     }
   ]
 }

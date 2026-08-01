@@ -1,0 +1,52 @@
+{
+  "$comment": "Facet Story『知的生産』(自己紹介の縦糸)。知的生産性向上の主語が 個人→個人+道具→個人+AI→集団 へ拡張する20年。共有 Dot 2014-05-word2vec-book は highdim 移行で作成済みを再利用(単一フラットプール)。",
+  "schema_version": "0.1-pilot",
+  "id": "intellectual-production",
+  "title": "知的生産",
+  "language": "ja",
+  "audience": ["エンジニア", "知的生産・思考法に関心のある人", "一般"],
+  "purpose": "『知的生産性の向上（手段）と文明の進歩（目的）』という一貫した関心軸を示し、その主語が個人→道具→AI→集団へ拡張してきた20年の物語を伝える",
+  "author": "nishio",
+  "intro": "知的生産とは知識を生み出すこと（梅棹忠夫『知的生産の技術』の系譜）。教科書に載っている知識は複製可能で差別化になりにくく、応用の現場で『状況に合わせた知識を生み出すこと』にこそ価値がある。この関心軸は一貫していて、変わったのはその主語——個人 → 個人+道具（外部脳）→ 個人+AI → 集団（ブロードリスニング）へと段階的に広がってきた、というのがこの20年の物語。",
+  "dots": [
+    "2007-cybozu-labs-researcher",
+    "2013-04-langbook",
+    "2014-05-word2vec-book",
+    "2017-scrapbox-external-brain",
+    "2018-08-engineers-way-book",
+    "2019-keichobot",
+    "2021-kozaneba",
+    "2022-02-engineers-way-english",
+    "2023-08-johoshori-chatgpt-essay",
+    "2024-lenchi-project"
+  ],
+  "captions": {
+    "2007-cybozu-labs-researcher": "関心軸の制度的な拠点。サイボウズ・ラボで知的生産性を高めるソフトウェアの研究に就いた。",
+    "2013-04-langbook": "個人の頭の中の作業を書物にする。プログラミング言語の進化史から、陳腐化しにくい知識を選んで書いた。",
+    "2014-05-word2vec-book": "知識を扱う技術のもう一つの面——単語を高次元ベクトルとして扱う技術を一冊に。",
+    "2017-scrapbox-external-brain": "主語が『個人』から『個人+道具』へ。Scrapboxを外部脳として、思考の作業ログを公開で蓄積し始めた。",
+    "2018-08-engineers-way-book": "関心軸そのものを一冊に凝縮した中心的著書。知的生産の技術をエンジニア視点で分析した。",
+    "2019-keichobot": "主語が『個人+AI』へ。質問を返して言語化を促すチャットボット——ChatGPT以前から『会話で言語化を支援する』を実装していた。",
+    "2021-kozaneba": "言語化に対する『構造化』の相方。KJ法の系譜を継ぐデジタル文房具で、Grouping(2014)から続く考えを整理するツールの試みの現在地。",
+    "2022-02-engineers-way-english": "中心的著書を英語で無料公開し、読者を国境の外へ広げた。",
+    "2023-08-johoshori-chatgpt-essay": "主語が『集団』へ向かう転回点。『一人の主観から大勢の主観へ』をChatGPT特集に寄稿した。",
+    "2024-lenchi-project": "LLM時代の知的生産（LENCHI）へ。関心軸のレトリックは変わらないまま、道具がLLMに変わった続編に取り組んでいる。"
+  },
+  "sections": [
+    {
+      "title": "個人：頭の中の作業を書物に (2007–2014)",
+      "from": "2007-cybozu-labs-researcher",
+      "to": "2014-05-word2vec-book"
+    },
+    {
+      "title": "個人+道具、個人+AI：外部脳とツール (2017–2022)",
+      "from": "2017-scrapbox-external-brain",
+      "to": "2022-02-engineers-way-english"
+    },
+    {
+      "title": "集団へ：大勢の主観、LLM時代 (2023–現在)",
+      "from": "2023-08-johoshori-chatgpt-essay",
+      "to": "2024-lenchi-project"
+    }
+  ]
+}

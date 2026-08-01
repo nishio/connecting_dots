@@ -5,9 +5,10 @@
 
 ## 現在地（TL;DR）
 - 設計は closed。`build.py` v0 が end-to-end で動作。
-- **本移行 進行中**。完了テーマ: **highdim**（Dot 7件, `story-highdim.json`）／**mentoring**（Dot 14件, `story-mentoring.json`）。現在 **56 Dot / 4 Story**、build 動作確認済み。**やり方（3工程）は下記「移行プレイブック」で確立**。
-- **フラットプールの実効**: mentoring は highdim 移行で作った `2003-super-creator-certification` を再利用（新規作成せず Story から参照）。テーマ間で Dot を共有できている。
-- **次の作業 = 残りテーマの本移行**：broadlistening / intellectual-production / plurality-facet。確立した3工程を繰り返す。一次年表は `entrypoint/docs/history-ja.html` が全テーマ共通で使える。intellectual-production 移行時に『コーディングを支える技術』(2013)『エンジニアの知的生産術』(2018) の書籍 Dot を作る（mentoring Story は現状これらを caption 文中で参照するに留めている）。
+- **本移行 進行中**。完了テーマ: **highdim**（7 Dot）／**mentoring**（14 Dot）／**intellectual-production**（9 Dot）。現在 **65 Dot / 5 Story**（story-highdim / story-mentoring / story-intellectual-production ＋ 既存 Plurality 2本）、build 動作確認済み。**やり方（3工程）は下記「移行プレイブック」で確立**。
+- **フラットプールの実効**: テーマ間で Dot を共有（共有5件）。`2003-super-creator-certification`＝highdim/mentoring、`2014-05-word2vec-book`＝highdim/IP、`2013-04-langbook`・`2018-08-engineers-way-book`＝mentoring/IP。書籍 Dot は IP 移行で作り、mentoring Story にも後付けリンク済み（deferral 解消）。
+- **Story の dots[] 配列順が描画順＝セクション境界**（build の `_render_story` は from/to を配列 index に写す）。共有 Dot を挿入したら**時系列を崩さない位置に**置くこと（崩すとセクション間で無所属 Dot が浮く）。
+- **次の作業 = 残りテーマの本移行**：broadlistening / plurality-facet。確立した3工程を繰り返す。一次年表は `entrypoint/docs/history-ja.html` が全テーマ共通で使える。都知事選2024など broadlistening の一次は `history-ja.html` line 93 と Scrapbox。
 
 ## 移行プレイブック（highdim で確立、以降のテーマもこれで）
 1. **atomize** — facet Story の `<li>` と旧プロトタイプ Dot（`archive/prototype-2026-02/data/dots/`）を atomic fact に分解。判定「同じ atomic イベントか別の事実か」。**credential（学位・認定）は研究とは別 fact に分割**（cf. 24歳博士）。
