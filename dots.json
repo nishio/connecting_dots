@@ -1529,8 +1529,8 @@
     {
       "id": "2025-idobata-platform",
       "date": "2025/..",
-      "event": "デジタル民主主義2030で「いどばた（idobata）」— 政策への意見交換・熟議のためのプラットフォーム — の開発に携わる",
-      "kind": "release",
+      "event": "デジタル民主主義2030の熟議・意見交換プラットフォーム「いどばた（idobata）」を社内で運用するプロジェクトに関わる",
+      "kind": "act",
       "entities": [
         "デジタル民主主義2030",
         "いどばた"
@@ -1546,7 +1546,7 @@
       ],
       "cosense_refs": [],
       "verifiability": "external",
-      "notes": "広聴AI（意見の収集・可視化, Dot=2024-kouchou-ai-development）に対し、いどばたは熟議・意見交換を担う別ツール。"
+      "notes": "いどばた自体はデジタル民主主義2030の開発物で、nishioは開発者ではない。関与は『社内で運用するプロジェクトへの参加』（過剰帰属を避ける, cf. 都知事選/JAPAN CHOICE）。広聴AI（収集・可視化, Dot=2024-kouchou-ai-development）に対し、いどばたは熟議・意見交換を担う別ツール。"
     },
     {
       "id": "2025-07-sangiin-2025-broadlistening",
